@@ -8678,7 +8678,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   margin-right: 10px;
 }
 .banner-seven-inner-content .title {
-  font-size: 160px;
+  font-size: 50px;
   text-transform: uppercase;
   color: #fff;
   font-weight: 800;
@@ -8686,12 +8686,12 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 @media only screen and (max-width: 1199px) {
   .banner-seven-inner-content .title {
-    font-size: 96px;
+    font-size: 40px;
   }
 }
 @media only screen and (max-width: 991px) {
   .banner-seven-inner-content .title {
-    font-size: 86px;
+    font-size: 40px;
   }
   .banner-seven-inner-content .title br {
     display: none;
@@ -8699,7 +8699,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 @media only screen and (max-width: 767px) {
   .banner-seven-inner-content .title {
-    font-size: 54px !important;
+    font-size: 40px !important;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -24266,7 +24266,7 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
 }
 @media only screen and (max-width: 767px) {
   .rts-section-gap {
-    padding: 60px 0;
+    padding: 100px 0;
   }
 }
 

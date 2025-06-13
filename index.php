@@ -119,23 +119,76 @@
         <div class="page-wrapper radious-none-button">
             <div class="banner-seven-swiper-wrapper">
                 <!-- index seven area start -->
-                <div class="index-seven-area rts-section-gap with-video bg_banner-seven two bg_image">
+                <div class="index-seven-area rts-section-gap with-video bg_banner-seven two bg_image h-auto">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <div class="banner-seven-inner-content">
+                            <div class="col-lg-6 col-md-6 col-sm-12" style="align-content: center;">
+                                <div class="banner-seven-inner-content p-0">
                                     <span class="pre-title">
                                         <img src="assets/images/banner/icon/01.svg" alt="banner" />
                                         Business Coach
                                     </span>
-                                    <h1 class="title">
-                                        Guru <br />
+                                    <h1 class="title py-2">
+                                        Guru
                                         <span>vignesh</span>
                                     </h1>
                                     <p class="disc">
                                         I have over 18 years of experience in providing high performance coaching / mentoring and consulting to entrepreneurs / professionals and student communities across India / Middle East and UK.
                                     </p>
-                                    <a href="#" class="rts-btn btn-primary btn-white">For Enquiry</a>
+                                    <a href="#" class="rts-btn btn-primary btn-white" style="border-radius: 15px;">For Enquiry</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12" style="place-items: center;">
+                                <div class="screen screen--scrollable landing-screen trans-group is-in page--bg" id="landing">
+                                    <div class="content-parent">
+                                        <ul class="hex-grid hex-grid--cols-3 hex-grid--rows-3">
+                                            <li class="hex-grid__item hex-grid__r1-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--lt">
+                                                <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--br trans-hex-layer trans-hex-layer-2">
+                                                    <div class="hex-grid__blur-bg"></div>
+                                                    Incubator
+                                                </a>
+                                            </li>
+                                            <li class="hex-grid__item hex-grid__r1-t hex-grid__c2 hex-grid__marker d:hex-grid__marker--t">
+                                                <a href="#!" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer">
+                                                    <!-- <div class="hex-grid__blur-bg"></div>
+                                                    Title 2 -->
+                                                </a>
+                                            </li>
+                                            <li class="hex-grid__item hex-grid__r1-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--rt">
+                                                <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-2">
+                                                    <div class="hex-grid__blur-bg"></div>
+                                                    Accelerator
+                                                </a>
+                                            </li>
+                                            <li class="hex-grid__item hex-grid__r2-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--lt">
+                                                <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
+                                                    <div class="hex-grid__blur-bg"></div>
+                                                    2nd Opinion
+                                                </a>
+                                            </li>
+                                            <li class="hex-grid__item hex-grid__item--center hex-grid__r2-t hex-grid__c2 trans-fade">
+                                                <div class="hex-grid__content hex-grid__content--center">
+                                                    <!-- <img src="assets/images/fav.png" alt="" /> -->
+                                                    <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
+                                                        <div class="hex-grid__blur-bg"></div>
+                                                        Ample Player
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="hex-grid__item hex-grid__r2-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--rt">
+                                                <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
+                                                    <div class="hex-grid__blur-bg"></div>
+                                                    Performance Auditing
+                                                </a>
+                                            </li>
+                                            <li class="hex-grid__item hex-grid__r3-t hex-grid__c2 hex-grid__marker d:hex-grid__marker--b">
+                                                <a href="#!" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-4">
+                                                    <!-- <div class="hex-grid__blur-bg"></div>
+                                                    Title 6 -->
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -147,28 +200,12 @@
                     </div>
                 </div>
                 <!-- index seven area end -->
-
-                <!-- <div class="email-area-left">
-                    <i class="fa-regular fa-envelope"></i>
-                    <a href="#">info@invema.com</a>
-                </div> -->
-
-                <!-- <div class="language-area">
-                    <span>en.</span>
-                    <span>fr.</span>
-                    <span>ge.</span>
-                </div> -->
-
-                <a href="#landing" class="to-bottom-area">
-                    <i class="fa-light fa-arrow-up"></i>
-                    Scroll
-                </a>
             </div>
 
             <!--Gradient-->
-            <div class="blob"></div>
+            <!-- <div class="blob"></div> -->
 
-            <section class="screen screen--scrollable landing-screen trans-group is-in page--bg" id="landing">
+            <!-- <section class="screen screen--scrollable landing-screen trans-group is-in page--bg" id="landing">
                 <div class="content-parent">
                     <ul class="hex-grid hex-grid--cols-3 hex-grid--rows-3">
                         <li class="hex-grid__item hex-grid__r1-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--lt">
@@ -196,7 +233,6 @@
                             </a>
                         </li>
                         <li class="hex-grid__item hex-grid__item--center hex-grid__r2-t hex-grid__c2 trans-fade">
-                            <!-- <div class="hex-grid__bg"></div> -->
                             <div class="hex-grid__content hex-grid__content--center">
                                 <img src="assets/images/fav.png" alt="" />
                             </div>
@@ -215,19 +251,9 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> -->
         </div>
 
         <?php include "temp/footer.php" ?>
-
-        <script>
-            var cursor = document.querySelector('.blob');
-
-            document.addEventListener('mousemove', function(e){
-                var x = e.clientX;
-                var y = e.clientY;
-                cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
-            });
-        </script>
     </body>
 </html>
