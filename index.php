@@ -143,48 +143,44 @@
                                     <div class="content-parent">
                                         <ul class="hex-grid hex-grid--cols-3 hex-grid--rows-3">
                                             <li class="hex-grid__item hex-grid__r1-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--lt">
-                                                <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--br trans-hex-layer trans-hex-layer-2">
+                                                <a href="details-1.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--br trans-hex-layer trans-hex-layer-2">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                    Incubator
+                                                    Igniter
                                                 </a>
                                             </li>
                                             <li class="hex-grid__item hex-grid__r1-t hex-grid__c2 hex-grid__marker d:hex-grid__marker--t">
-                                                <a href="#!" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer">
-                                                    <!-- <div class="hex-grid__blur-bg"></div>
-                                                    Title 2 -->
-                                                </a>
-                                            </li>
-                                            <li class="hex-grid__item hex-grid__r1-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--rt">
-                                                <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-2">
+                                                <a href="details-2.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer">
                                                     <div class="hex-grid__blur-bg"></div>
                                                     Accelerator
                                                 </a>
                                             </li>
-                                            <li class="hex-grid__item hex-grid__r2-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--lt">
-                                                <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
+                                            <li class="hex-grid__item hex-grid__r1-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--rt">
+                                                <a href="details-3.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-2">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                    2nd Opinion
+                                                    Maximizer
+                                                </a>
+                                            </li>
+                                            <li class="hex-grid__item hex-grid__r2-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--lt">
+                                                <a href="details-4.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
+                                                    <div class="hex-grid__blur-bg"></div>
+                                                    Comparator
                                                 </a>
                                             </li>
                                             <li class="hex-grid__item hex-grid__item--center hex-grid__r2-t hex-grid__c2 trans-fade">
                                                 <div class="hex-grid__content hex-grid__content--center">
-                                                    <!-- <img src="assets/images/fav.png" alt="" /> -->
-                                                    <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
-                                                        <div class="hex-grid__blur-bg"></div>
-                                                        Ample Player
-                                                    </a>
+                                                    <img src="assets/images/fav.png" alt="" />
                                                 </div>
                                             </li>
                                             <li class="hex-grid__item hex-grid__r2-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--rt">
-                                                <a href="details.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
+                                                <a href="details-5.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                    Performance Auditing
+                                                    Auditor
                                                 </a>
                                             </li>
                                             <li class="hex-grid__item hex-grid__r3-t hex-grid__c2 hex-grid__marker d:hex-grid__marker--b">
-                                                <a href="#!" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-4">
-                                                    <!-- <div class="hex-grid__blur-bg"></div>
-                                                    Title 6 -->
+                                                <a href="details-6.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-4">
+                                                    <div class="hex-grid__blur-bg"></div>
+                                                    Automator
                                                 </a>
                                             </li>
                                         </ul>

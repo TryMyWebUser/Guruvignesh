@@ -18,11 +18,12 @@
                     <li class="has-droupdown">
                         <a href="#" class="main text-dark" aria-expanded="false">Consulting</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="text-dark" href="details-2.php">Incubator</a></li>
+                            <li><a class="text-dark" href="details-1.php">Igniter</a></li>
                             <li><a class="text-dark" href="details-2.php">Accelerator</a></li>
-                            <li><a class="text-dark" href="details-2.php">Ample Player</a></li>
-                            <li><a class="text-dark" href="details-2.php">2nd Opinion</a></li>
-                            <li><a class="text-dark" href="details-2.php">Performance Auditing</a></li>
+                            <li><a class="text-dark" href="details-2.php">Maximizer</a></li>
+                            <li><a class="text-dark" href="details-4.php">Comparator</a></li>
+                            <li><a class="text-dark" href="details-5.php">Auditor</a></li>
+                            <li><a class="text-dark" href="details-6.php">Automator</a></li>
                         </ul>
                     </li>
                     <li>

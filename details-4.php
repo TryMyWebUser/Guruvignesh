@@ -32,14 +32,13 @@
                             <div class="about-content-inner-five">
                                 <div class="title-style-five">
                                     <span class="pre">Company Name</span>
-                                    <h2 class="title rts-text-anime-style-1">Accelerator alias Business Speed Generator</h2>
+                                    <h2 class="title rts-text-anime-style-1">Comparator alias Second Opinion</h2>
                                 </div>
                                 <div class="inner-about-home-7">
                                     <p class="disc mt-5 mb-4">
-                                        <b>Tagline: Speed & Agile Execution for Small Business Growth!!</b>
+                                        <b>Tagline:  Second-Opinion Compass To Take Confident Decisions For Small Businesses!!</b>
                                     </p>
-                                    <p class="mb-3"><b>Accelerate. Win. Endure.</b> We ignite rapid growth with precise market entry plans, hands-on sales and promotion drives, and strong teams built for the future. Our approach secures healthy cash flows, strengthens financial foundations, and charts a resilient success route. With ongoing tracking, refinement, and expansion, we help you stay ahead - and stay there.</p>
-                                    <p class="mt-4"><b>“Fast-track your growth with sharp market moves, strong teams, solid cash flow, and a plan built to scale and last”</b></p>
+                                    <p><b>Clarity. Confidence. Better Decisions.</b> We step in as your independent thinking partner - uncovering context, benchmarking against the best, and challenging assumptions with fresh eyes. Our deep-dive diagnosis, alternative scenarios, and actionable decision blueprint equip you to choose wisely. With focused stakeholder workshops, we ensure alignment and a smooth handover - so you move forward with certainty.</p>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +69,12 @@
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="padding-left: 60px;">
                                                 <ul style="list-style: disc;">
-                                                    <li>GTM Strategy & Market Launch</li>
-                                                    <li>Sales & Marketing Execution</li>
-                                                    <li>Team Building & Capability Development</li>
-                                                    <li>Cash Flow & Financial Enablers</li>
-                                                    <li>Sustainable Path</li>
-                                                    <li>Monitor, Iterate & Scale</li>
+                                                    <li>Context Discovery & Framing</li>
+                                                    <li>Benchmarking & Industry Comparison</li>
+                                                    <li>Strategic Diagnosis & Assumption Testing</li>
+                                                    <li>Independent Insight & Alternative Scenarios</li>
+                                                    <li>Recommendation & Decision Blueprint</li>
+                                                    <li>Stakeholder Workshop & Handover</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -89,10 +88,24 @@
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="padding-left: 60px;">
                                                 <ul style="list-style: disc;">
-                                                    <li class="mb-2">End-to-end acceleration from launch to scale - covering GTM, finance, people and sustainability.</li>
-                                                    <li class="mb-2">Hands-on implementation with structured sprints, coaching, and active optimization.</li>
-                                                    <li class="mb-2">Data & metrics driven-ensuring measurable impact and future-readiness.</li>
-                                                </ul>    
+                                                    <li class="mb-2">My engagement concludes not just with feedback-but with rigorous benchmarking, objective insights, strategic alternatives, and a clear, actionable roadmap ready for implementation. You walk away not just reassured-you’re <b>set up to succeed</b> as I provide...</li>
+                                                </ul>
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><b>Unbiased Perspective</b></td>
+                                                            <td>Fresh skillful eyes spot gaps that internal stakeholders often miss</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><b>Risk Mitigation & Confidence</b></td>
+                                                            <td>Reduces blind spots and affords strategic peace of mind</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><b>Decision-Ready Outputs</b></td>
+                                                            <td>Provides actionable briefings and facilitation to lead execution</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>
@@ -104,7 +117,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                You gain not only strategy and planning, but also hands-on setup, team enablement, financial clarity, operational robustness, and continuous improvement-ensuring you can <b>launch, scale, and sustain growth with confidence.</b>
+                                                Walk away with a vetted roadmap featuring alternative scenarios and clear decision criteria-giving you confidence, credibility, and a path forward by gaining a sharp, unbiased diagnosis from seasoned experts who uncover missed opportunities, challenge assumptions, and mitigate strategic risks.
                                             </div>
                                         </div>
                                     </div>
@@ -116,8 +129,8 @@
                                         </h2>
                                         <div id="callto" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p class="mb-2">“Experience a surge in qualified leads and a future-proof growth engine-fully enabled with your custom GTM strategy, team framework, and cash flow clarity.”</p>
-                                                <p><b>Book your strategy session today and activate future-proof growth engine.</b></p>
+                                                <p class="mb-2">“Transform your strategy with a powerful second-opinion-get expert insights that uncover hidden opportunities, challenge assumptions, and sharpen your decisions.”</p>
+                                                <p><b>Book your strategy session today and get a powerful second opinion.</b></p>
                                             </div>
                                         </div>
                                     </div>

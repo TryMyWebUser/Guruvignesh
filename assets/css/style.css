@@ -18239,7 +18239,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
 .faq-main-wrapper-content-inner-four .accordion .accordion-item .accordion-collapse .accordion-body {
   transition: 0s;
   transition-delay: 0s;
-  padding: 25px 30px 30px 30px;
+  padding: 1px 25px 15px 35px;
   font-size: 16px;
   color: #5D666F;
 }

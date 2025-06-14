@@ -32,14 +32,13 @@
                             <div class="about-content-inner-five">
                                 <div class="title-style-five">
                                     <span class="pre">Company Name</span>
-                                    <h2 class="title rts-text-anime-style-1">Accelerator alias Business Speed Generator</h2>
+                                    <h2 class="title rts-text-anime-style-1">Maximizer</h2>
                                 </div>
                                 <div class="inner-about-home-7">
                                     <p class="disc mt-5 mb-4">
-                                        <b>Tagline: Speed & Agile Execution for Small Business Growth!!</b>
+                                        <b>Tagline:  Enterprise Outreach, Resilience & Combat Readiness For Small Businesses!!</b>
                                     </p>
-                                    <p class="mb-3"><b>Accelerate. Win. Endure.</b> We ignite rapid growth with precise market entry plans, hands-on sales and promotion drives, and strong teams built for the future. Our approach secures healthy cash flows, strengthens financial foundations, and charts a resilient success route. With ongoing tracking, refinement, and expansion, we help you stay ahead - and stay there.</p>
-                                    <p class="mt-4"><b>“Fast-track your growth with sharp market moves, strong teams, solid cash flow, and a plan built to scale and last”</b></p>
+                                    <p><b>Sharpen, Strengthen, Scale.</b> Our Maximizer service helps you unlock hidden profits through smarter pricing and cost controls, boost cash flow with accurate forecasting, and drive efficiency across operations. With data-powered performance tracking, robust financial governance, and a clear path for continuous improvement, we position your business for lasting strength and smart scaling.</p>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +69,12 @@
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="padding-left: 60px;">
                                                 <ul style="list-style: disc;">
-                                                    <li>GTM Strategy & Market Launch</li>
-                                                    <li>Sales & Marketing Execution</li>
-                                                    <li>Team Building & Capability Development</li>
-                                                    <li>Cash Flow & Financial Enablers</li>
-                                                    <li>Sustainable Path</li>
-                                                    <li>Monitor, Iterate & Scale</li>
+                                                    <li>Profit & Pricing Optimization</li>
+                                                    <li>Process Efficiencies & Cost Management</li>
+                                                    <li>Cash Flow Enablement & Forecasting</li>
+                                                    <li>Data-Driven Performance Monitoring</li>
+                                                    <li>Financial Governance & Risk Preparedness</li>
+                                                    <li>Continuous Improvement & Strategic Scaling</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -89,9 +88,10 @@
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="padding-left: 60px;">
                                                 <ul style="list-style: disc;">
-                                                    <li class="mb-2">End-to-end acceleration from launch to scale - covering GTM, finance, people and sustainability.</li>
-                                                    <li class="mb-2">Hands-on implementation with structured sprints, coaching, and active optimization.</li>
-                                                    <li class="mb-2">Data & metrics driven-ensuring measurable impact and future-readiness.</li>
+                                                    <li class="mb-2">Boosts profitability with smarter pricing and performance-based cost control.</li>
+                                                    <li class="mb-2">Generates reliable cash flow, reducing dependency on external financing.</li>
+                                                    <li class="mb-2">Builds business resilience through operational discipline and risk preparedness.</li>
+                                                    <li>Informs smarter decisions via real-time metrics, forecasting, and iterative improvement.</li>
                                                 </ul>    
                                             </div>
                                         </div>
@@ -104,7 +104,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                You gain not only strategy and planning, but also hands-on setup, team enablement, financial clarity, operational robustness, and continuous improvement-ensuring you can <b>launch, scale, and sustain growth with confidence.</b>
+                                                Experience empowered decision-making through predictive analytics and scenario planning-ensuring you're always ready for any business challenge through optimized processes that slash costs and boost resilience.
                                             </div>
                                         </div>
                                     </div>
@@ -116,8 +116,8 @@
                                         </h2>
                                         <div id="callto" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p class="mb-2">“Experience a surge in qualified leads and a future-proof growth engine-fully enabled with your custom GTM strategy, team framework, and cash flow clarity.”</p>
-                                                <p><b>Book your strategy session today and activate future-proof growth engine.</b></p>
+                                                <p class="mb-2">“Unlock higher profits and steady cash flow with optimized pricing, streamlined operations, and real-time KPI dashboards-keeping your business agile and resilient.”</p>
+                                                <p><b>Book your strategy session today and activate data-driven resilience.</b></p>
                                             </div>
                                         </div>
                                     </div>

@@ -32,14 +32,13 @@
                             <div class="about-content-inner-five">
                                 <div class="title-style-five">
                                     <span class="pre">Company Name</span>
-                                    <h2 class="title rts-text-anime-style-1">Accelerator alias Business Speed Generator</h2>
+                                    <h2 class="title rts-text-anime-style-1">Auto Pilot Mode</h2>
                                 </div>
                                 <div class="inner-about-home-7">
                                     <p class="disc mt-5 mb-4">
-                                        <b>Tagline: Speed & Agile Execution for Small Business Growth!!</b>
+                                        <b>Tagline: Precision-Powered, Future-Proof, Self-Optimizing Small Business Engine!!</b>
                                     </p>
-                                    <p class="mb-3"><b>Accelerate. Win. Endure.</b> We ignite rapid growth with precise market entry plans, hands-on sales and promotion drives, and strong teams built for the future. Our approach secures healthy cash flows, strengthens financial foundations, and charts a resilient success route. With ongoing tracking, refinement, and expansion, we help you stay ahead - and stay there.</p>
-                                    <p class="mt-4"><b>“Fast-track your growth with sharp market moves, strong teams, solid cash flow, and a plan built to scale and last”</b></p>
+                                    <p>Transform your operations into a high-performing autopilot-where AI-powered workflows, real-time dashboards, and accountable teams run routine tasks with 70-90% fewer errors and up to 30-90% greater efficiency. Experience predictive decision-making and seamless process control-so your leaders tackle only high-impact strategy while AI handles the rest.</p>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +69,13 @@
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="padding-left: 60px;">
                                                 <ul style="list-style: disc;">
-                                                    <li>GTM Strategy & Market Launch</li>
-                                                    <li>Sales & Marketing Execution</li>
-                                                    <li>Team Building & Capability Development</li>
-                                                    <li>Cash Flow & Financial Enablers</li>
-                                                    <li>Sustainable Path</li>
-                                                    <li>Monitor, Iterate & Scale</li>
+                                                    <li>Opportunity & ROI Blueprint</li>
+                                                    <li>Autopilot Process Designs</li>
+                                                    <li>Automation Stack & AI Agent Setup</li>
+                                                    <li>Launch, Validation & Optimization</li>
+                                                    <li>Enterprise Rollout & Training</li>
+                                                    <li>Live Performance & AI-Autonomy</li>
+                                                    <li>Support & Continuous Improvement</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -83,15 +83,15 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                02. Why This Works 
+                                                02. Why This Process Works 
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="padding-left: 60px;">
                                                 <ul style="list-style: disc;">
-                                                    <li class="mb-2">End-to-end acceleration from launch to scale - covering GTM, finance, people and sustainability.</li>
-                                                    <li class="mb-2">Hands-on implementation with structured sprints, coaching, and active optimization.</li>
-                                                    <li class="mb-2">Data & metrics driven-ensuring measurable impact and future-readiness.</li>
+                                                    <li class="mb-2"><b>Full Autonomy:</b> Teams become stakeholders in tactical process control, freeing founders to focus on strategic growth and diversification.</li>
+                                                    <li class="mb-2"><b>Resilience Built-In:</b> AI-driven dashboards and alerts ensure ongoing alignment, situational awareness, and quick tactical response.</li>
+                                                    <li><b>Scalable Intelligence:</b>  Agentic AI continuously learns from real data-enhancing efficiency and decision quality over time.</li>
                                                 </ul>    
                                             </div>
                                         </div>
@@ -104,7 +104,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                You gain not only strategy and planning, but also hands-on setup, team enablement, financial clarity, operational robustness, and continuous improvement-ensuring you can <b>launch, scale, and sustain growth with confidence.</b>
+                                                You’ll receive AI and RPA-powered automated workflows that cut error rates by up to 50-75% and boost operational efficiency by 30-90%, freeing your team from routine tasks and accelerating throughput. You’ll gain interactive, real-time KPI dashboards that monitor cycle time, cost savings, accuracy, and predictive alerts-enabling proactive, data-backed decision-making Plus, you’ll have a self-driving operational engine where your team handles only strategic decisions while automated systems run day-to-day tasks autonomously, giving you space to scale, innovate, and grow.
                                             </div>
                                         </div>
                                     </div>
@@ -116,8 +116,8 @@
                                         </h2>
                                         <div id="callto" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p class="mb-2">“Experience a surge in qualified leads and a future-proof growth engine-fully enabled with your custom GTM strategy, team framework, and cash flow clarity.”</p>
-                                                <p><b>Book your strategy session today and activate future-proof growth engine.</b></p>
+                                                <p class="mb-2">Activate your AI-driven autopilot mode today-automate routine workflows, cut errors by up to 90%, and reclaim your team’s time for strategic growth.</p>
+                                                <p><b>Schedule your Autopilot Assessment now and start running your business smarter, faster, and more resilient than ever.</b></p>
                                             </div>
                                         </div>
                                     </div>

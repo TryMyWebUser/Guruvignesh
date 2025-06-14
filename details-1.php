@@ -32,14 +32,14 @@
                             <div class="about-content-inner-five">
                                 <div class="title-style-five">
                                     <span class="pre">Company Name</span>
-                                    <h2 class="title rts-text-anime-style-1">Accelerator alias Business Speed Generator</h2>
+                                    <h2 class="title rts-text-anime-style-1">Igniter alias Incubator</h2>
                                 </div>
                                 <div class="inner-about-home-7">
                                     <p class="disc mt-5 mb-4">
-                                        <b>Tagline: Speed & Agile Execution for Small Business Growth!!</b>
+                                        <b>Tagline: Starting Strong With Strategic Clarity For Small Businesses!!</b>
                                     </p>
-                                    <p class="mb-3"><b>Accelerate. Win. Endure.</b> We ignite rapid growth with precise market entry plans, hands-on sales and promotion drives, and strong teams built for the future. Our approach secures healthy cash flows, strengthens financial foundations, and charts a resilient success route. With ongoing tracking, refinement, and expansion, we help you stay ahead - and stay there.</p>
-                                    <p class="mt-4"><b>“Fast-track your growth with sharp market moves, strong teams, solid cash flow, and a plan built to scale and last”</b></p>
+                                    <p class="mb-3"><b>Build. Refine. Launch. Succeed.</b> We explore untapped possibilities, design clear growth pathways, shape and test working models, bring ideas to life with controlled rollouts, and empower you to take charge with confidence. We will co-create and test MVPs that work, pilot real-world launches, and ensure you’re ready to lead.</p>
+                                    <p class="mt-4"><b>It’s your vision - accelerated, tested, and ready to thrive.</b></p>
                                 </div>
                             </div>
                         </div>
@@ -70,12 +70,11 @@
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="padding-left: 60px;">
                                                 <ul style="list-style: disc;">
-                                                    <li>GTM Strategy & Market Launch</li>
-                                                    <li>Sales & Marketing Execution</li>
-                                                    <li>Team Building & Capability Development</li>
-                                                    <li>Cash Flow & Financial Enablers</li>
-                                                    <li>Sustainable Path</li>
-                                                    <li>Monitor, Iterate & Scale</li>
+                                                    <li>Discovery & Assessment</li>
+                                                    <li>Strategy Blueprint</li>
+                                                    <li>Prototyping & Validation</li>
+                                                    <li>Pilot & Launch</li>
+                                                    <li>Transition & Handover</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -83,15 +82,16 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                02. Why This Works 
+                                                02. Why This Process Works 
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body" style="padding-left: 60px;">
                                                 <ul style="list-style: disc;">
-                                                    <li class="mb-2">End-to-end acceleration from launch to scale - covering GTM, finance, people and sustainability.</li>
-                                                    <li class="mb-2">Hands-on implementation with structured sprints, coaching, and active optimization.</li>
-                                                    <li class="mb-2">Data & metrics driven-ensuring measurable impact and future-readiness.</li>
+                                                    <li class="mb-2"><b>Precision:</b> We start by clearly defining the core challenge - so we tackle the right problem, not symptoms.</li>
+                                                    <li class="mb-2"><b>Actionable:</b> From ideation to prototype, we emphasize validated learning to reduce risk.</li>
+                                                    <li class="mb-2"><b>Practical Momentum:</b> Pilots, KPIs, and real-world results drive forward progress at each stage.</li>
+                                                    <li><b>Sustainable Results:</b> We ensure tools, data, and team capabilities are in place for long-term success.</li>
                                                 </ul>    
                                             </div>
                                         </div>
@@ -104,7 +104,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                You gain not only strategy and planning, but also hands-on setup, team enablement, financial clarity, operational robustness, and continuous improvement-ensuring you can <b>launch, scale, and sustain growth with confidence.</b>
+                                                These structured deliverables log not only captures progress at each phase but ensures transparency, accountability, and ease of handover - empowering your business to continue confidently after our engagement.
                                             </div>
                                         </div>
                                     </div>
@@ -116,8 +116,8 @@
                                         </h2>
                                         <div id="callto" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p class="mb-2">“Experience a surge in qualified leads and a future-proof growth engine-fully enabled with your custom GTM strategy, team framework, and cash flow clarity.”</p>
-                                                <p><b>Book your strategy session today and activate future-proof growth engine.</b></p>
+                                                <p class="mb-2">"Let’s spark your next breakthrough - book your discovery call now and take the first step toward transformation."</p>
+                                                <p><b>Book your strategy session today and ignite your future - proof growth engine. </b></p>
                                             </div>
                                         </div>
                                     </div>
