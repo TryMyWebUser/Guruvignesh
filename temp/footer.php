@@ -13,7 +13,7 @@
                         <a href="index.php" class="main text-dark" aria-expanded="false">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="main text-dark" aria-expanded="false">About Us</a>
+                        <a href="about.php" class="main text-dark" aria-expanded="false">About Us</a>
                     </li>
                     <li class="has-droupdown">
                         <a href="#" class="main text-dark" aria-expanded="false">Consulting</a>
