@@ -137,7 +137,7 @@
                                                 <div class="simplebar-content" style="padding: 0px 0px 0px 40px;">
                                                     <div class="screen__content-inner">
                                                         <div class="screen__main-text trans-fade trans-delay-400">
-                                                            <p class="text-white">I have over 18 years of experience in providing high performance coaching/ mentoring and consulting to entrepreneurs/ professionals and student communities across India/ Middle East and UK.</p>
+                                                            <p class="text-white">Guru blends hands-on business experience, lean strategy, data-driven insights, AI-enabled innovation, and mindful coaching to help small businesses scale smarter, build stronger teams, and lead with confidence.</p>
                                                         </div>
 
                                                         <div class="s-expandable">
@@ -171,21 +171,21 @@
                                     <div class="hex-grid__content hex-grid__content--even trans-hex-layer"></div>
                                 </li>
                                 <li class="hex-grid__item hex-grid__r1-b hex-grid__c1 d:hex-grid__r1-b d:hex-grid__c2 hex-grid__marker d:hex-grid__marker--lt">
-                                    <a href="details-2.php" class="text-white hex-grid__content hex-grid__content--br trans-hex-layer trans-hex-layer-2">
+                                    <a href="details-1.php" class="text-white hex-grid__content hex-grid__content--br trans-hex-layer trans-hex-layer-2">
                                         <div class="hex-grid__blur-bg"></div>
-                                        Title 1
+                                        Igniter
                                     </a>
                                 </li>
                                 <li class="hex-grid__item hex-grid__r1-b hex-grid__c3 d:hex-grid__r1-b d:hex-grid__c4 hex-grid__marker m:hex-grid__marker--t m:hex-grid__marker--dark d:hex-grid__marker--t d:hex-grid__marker--dark">
                                     <a href="details-2.php" class="text-white hex-grid__content hex-grid__content--tr trans-hex-layer trans-hex-layer-2">
                                         <div class="hex-grid__blur-bg"></div>
-                                        Title 2
+                                        Accelerator
                                     </a>
                                 </li>
                                 <li class="hex-grid__item hex-grid__r1-t hex-grid__c2 d:hex-grid__r1-t d:hex-grid__c5 hex-grid__marker d:hex-grid__marker--rb">
-                                    <a href="details-2.php" class="text-white hex-grid__content hex-grid__content--br trans-hex-layer">
+                                    <a href="details-3.php" class="text-white hex-grid__content hex-grid__content--br trans-hex-layer">
                                         <div class="hex-grid__blur-bg"></div>
-                                        Title 3
+                                        Maximizer
                                     </a>
                                 </li>
                                 <li class="hex-grid__item m:hex-grid__hidden d:hex-grid__r2-t d:hex-grid__c1">
@@ -193,23 +193,23 @@
                                 </li>
                                 <li class="hex-grid__item hex-grid__item--center hex-grid__r2-t hex-grid__c2 d:hex-grid__r2-t d:hex-grid__c3 trans-fade">
                                     <div class="hex-grid__bg"></div>
-                                    <a href="details-2.php" class="text-white hex-grid__content hex-grid__content--center">
-                                        Title 4
+                                    <a href="details-4.php" class="text-white hex-grid__content hex-grid__content--center">
+                                        Comparator
                                     </a>
                                 </li>
                                 <li class="hex-grid__item hex-grid__r2-b hex-grid__c1 d:hex-grid__r2-b d:hex-grid__c2 hex-grid__marker m:hex-grid__marker--b m:hex-grid__marker--light d:hex-grid__marker--lb trans-hex-layer">
-                                    <a href="details-2.php" class="text-white hex-grid__content hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
+                                    <a href="details-5.php" class="text-white hex-grid__content hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
                                         <div class="hex-grid__blur-bg"></div>
-                                        Title 5
+                                        Auditor
                                     </a>
                                 </li>
                                 <li class="hex-grid__item hex-grid__r2-b hex-grid__c3 d:hex-grid__r2-b d:hex-grid__c4">
                                     <div class="hex-grid__content hex-grid__content--lit trans-hex-layer trans-hex-layer-3"></div>
                                 </li>
                                 <li class="hex-grid__item hex-grid__r3-t hex-grid__c2 d:hex-grid__r3-t d:hex-grid__c3 hex-grid__marker d:hex-grid__marker--b">
-                                    <a href="details-2.php" class="text-white hex-grid__content hex-grid__content--tr trans-hex-layer trans-hex-layer-4">
+                                    <a href="details-6.php" class="text-white hex-grid__content hex-grid__content--tr trans-hex-layer trans-hex-layer-4">
                                         <div class="hex-grid__blur-bg"></div>
-                                        Click Here
+                                        Automator
                                     </a>
                                 </li>
                             </ul>

@@ -133,7 +133,7 @@
                                         <span>vignesh</span>
                                     </h1>
                                     <p class="disc">
-                                        I have over 18 years of experience in providing high performance coaching / mentoring and consulting to entrepreneurs / professionals and student communities across India / Middle East and UK.
+                                        Guru blends hands-on business experience, lean strategy, data-driven insights, AI-enabled innovation, and mindful coaching to help small businesses scale smarter, build stronger teams, and lead with confidence.
                                     </p>
                                     <a href="#" class="rts-btn btn-primary btn-white" style="border-radius: 15px;">For Enquiry</a>
                                 </div>

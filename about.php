@@ -144,7 +144,7 @@
                                 <div class="information">
                                     <h4 class="title">Real-World Expertise That Delivers</h4>
                                     <p class="disc">
-                                        From manufacturing to eCommerce, HR, FMCG, real estate, education, supply chain, hospitality, trading, ITES, and beyond — Guru brings advice forged in action, not theory.
+                                        From manufacturing to eCommerce, HR, FMCG, real estate, education, supply chain, hospitality, trading, ITES, and beyond - Guru brings advice forged in action, not theory.
                                     </p>
                                 </div>
                             </div>
