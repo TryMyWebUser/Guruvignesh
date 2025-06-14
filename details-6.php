@@ -19,8 +19,30 @@
 
         <div class="page-wrapper radious-none-button">
 
+            <!-- about us area wrapper main -->
+            <div class="rts-breadcrumb-area bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-area-left center">
+                                <span class="bg-title">Automator</span>
+                                <h1 class="title rts-text-anime-style-1">
+                                    Automator
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape-area">
+                    <img src="assets/images/about/shape/01.png" alt="shape" class="one" />
+                    <img src="assets/images/about/shape/02.png" alt="shape" class="two" />
+                    <img src="assets/images/about/shape/03.png" alt="shape" class="three" />
+                </div>
+            </div>
+            <!-- about us area wrapper main end -->
+
             <!-- rts about area start -->
-            <div class="rts-about-five-area rts-section-gapBottom bg-white pb-100 pt--160">
+            <div class="rts-about-five-area rts-section-gapBottom bg-white pb-100">
                 <div class="container-full">
                     <div class="row align-items-center">
                         <div class="col-lg-6 pr--70 pr_md--0 pr_sm--0">
