@@ -3,8 +3,7 @@
     <!-- inner menu area desktop start -->
     <div class="rts-sidebar-menu-desktop">
         <a class="logo-1" href="index.php">
-            <!-- <img class="logo" src="assets/images/logo/01.svg" alt="finbiz_logo" /> -->
-            <h4 class="text-dark fs-1 mt-5">Guruvignesh</h4>
+             <img src="assets/images/logo-1.png" width="120" alt="transparent" />
         </a>
         <div class="mobile-menu" style="display: block !important;">
             <nav class="nav-main mainmenu-nav mt--30">
@@ -16,14 +15,14 @@
                         <a href="about.php" class="main text-dark" aria-expanded="false">About Us</a>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main text-dark" aria-expanded="false">Consulting</a>
+                        <a href="#" class="main text-dark" aria-expanded="false">AI Powered Business Solutions</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="text-dark" href="details-1.php">Igniter</a></li>
-                            <li><a class="text-dark" href="details-2.php">Accelerator</a></li>
-                            <li><a class="text-dark" href="details-2.php">Maximizer</a></li>
-                            <li><a class="text-dark" href="details-4.php">Comparator</a></li>
-                            <li><a class="text-dark" href="details-5.php">Auditor</a></li>
-                            <li><a class="text-dark" href="details-6.php">Automator</a></li>
+                            <li><a class="text-dark" href="details-1.php">Business Incubator</a></li>
+                            <li><a class="text-dark" href="details-2.php">Business Accelerator</a></li>
+                            <li><a class="text-dark" href="details-3.php">Business Maximizer</a></li>
+                            <li><a class="text-dark" href="details-4.php">Business Comparator</a></li>
+                            <li><a class="text-dark" href="details-5.php">Business Auditor</a></li>
+                            <li><a class="text-dark" href="details-6.php">Business Automator</a></li>
                         </ul>
                     </li>
                     <li>

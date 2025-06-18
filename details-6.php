@@ -8,7 +8,10 @@
 
         <style>
             header {
-                background: #212529!important;
+                background: #000 !important;
+            }
+            img.block.d-none {
+                display: block !important;
             }
         </style>
 
@@ -23,12 +26,16 @@
             <div class="rts-breadcrumb-area bg-white">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12" style="margin-top: 10rem;">
                             <div class="title-area-left center">
-                                <span class="bg-title">Automator</span>
+                                <span class="bg-title">Business Automator</span>
                                 <h1 class="title rts-text-anime-style-1">
-                                    Automator
+                                    Business Automator
                                 </h1>
+                                <hr style="border: 1px solid #000; width: 36rem; place-self: center;">
+                                <p class="disc" style="color: #009688;">
+                                    <b style="letter-spacing: 2px;">Precision-Powered, Future-Proof, Self-Optimizing Small Business Engine!!</b>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -52,14 +59,7 @@
                         </div>
                         <div class="col-lg-6 mt_md--30 mt_sm--30">
                             <div class="about-content-inner-five">
-                                <div class="title-style-five">
-                                    <span class="pre">Company Name</span>
-                                    <h2 class="title rts-text-anime-style-1">Auto Pilot Mode</h2>
-                                </div>
                                 <div class="inner-about-home-7">
-                                    <p class="disc mt-5 mb-4">
-                                        <b>Tagline: Precision-Powered, Future-Proof, Self-Optimizing Small Business Engine!!</b>
-                                    </p>
                                     <p>Transform your operations into a high-performing autopilot-where AI-powered workflows, real-time dashboards, and accountable teams run routine tasks with 70-90% fewer errors and up to 30-90% greater efficiency. Experience predictive decision-making and seamless process control-so your leaders tackle only high-impact strategy while AI handles the rest.</p>
                                 </div>
                             </div>
@@ -75,17 +75,14 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="faq-main-wrapper-content-inner-four">
-                                <div class="title-style-four left">
-                                    <span class="pre">Solutions</span>
-                                    <h2 class="title rts-text-anime-style-1">We Are Experienced <br>
-                                        <span>Business Solution</span>
-                                    </h2>
-                                </div>
+                                <!--<div class="title-style-four left">-->
+                                <!--    <h2 class="title" style="justify-self: center; color: #b5b5b5; letter-spacing: 2px; font-size: 16px; line-height: inherit;">"Fast-track your growth with sharp market moves, strong teams, solid cash flow, and a plan built to scale and last"</h2>-->
+                                <!--</div>-->
                                 <div class="accordion mt--40" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                01. What We Deliver?
+                                                What We Deliver?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -105,7 +102,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                02. Why This Process Works 
+                                                Why Our Solution Works?
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -114,14 +111,14 @@
                                                     <li class="mb-2"><b>Full Autonomy:</b> Teams become stakeholders in tactical process control, freeing founders to focus on strategic growth and diversification.</li>
                                                     <li class="mb-2"><b>Resilience Built-In:</b> AI-driven dashboards and alerts ensure ongoing alignment, situational awareness, and quick tactical response.</li>
                                                     <li><b>Scalable Intelligence:</b>  Agentic AI continuously learns from real data-enhancing efficiency and decision quality over time.</li>
-                                                </ul>    
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                03. What you Get?
+                                                What you Get?
                                             </button>
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -130,32 +127,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#callto" aria-expanded="false" aria-controls="callto">
-                                                04. Call To Action
-                                            </button>
-                                        </h2>
-                                        <div id="callto" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p class="mb-2">Activate your AI-driven autopilot mode today-automate routine workflows, cut errors by up to 90%, and reclaim your team’s time for strategic growth.</p>
-                                                <p><b>Schedule your Autopilot Assessment now and start running your business smarter, faster, and more resilient than ever.</b></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="rts-btn btn-primary btn-white rounded" style="justify-self: center;">
-                                        Get a Free Demo Section
+                                    <button class="btn-primary btn-white" style="border-radius: 4rem; padding: 14px; width: auto; background: #009688; color: #FFF; border: none;">
+                                        Schedule your Autopilot Assessment now and start running your business smarter, faster, and more resilient than ever
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-6">
-                            <div class="faq-one-thumbnail-wrapper-right" data-animation="zoomOut" data-delay="0.2" data-duration="1.2">
-                                <div class="thumbnail">
-                                    <img src="assets/images/faq/01.webp" alt="faq">
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>

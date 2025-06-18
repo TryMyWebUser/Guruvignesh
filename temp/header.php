@@ -4,29 +4,10 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="header-transparent-main-wrapper">
-                    <a href="index.php" class="logo">
-                        <!-- <img src="assets/images/logo/02.svg" alt="transparent" /> -->
-                        <h4 class="text-white fs-1">Guruvignesh</h4>
+                    <a href="index.php" class="logo d-flex align-item-center">
+                        <img src="assets/images/logo.png" class="block d-none" width="120" alt="transparent" /> 
+                        <p style="align-content: end; color: #fff; font-size: 11px;">AI Powered Business Partner</p>
                     </a>
-                    <!-- <div class="nav-area">
-                        <ul class="">
-                            <li class="main-nav project-a-after">
-                                <a href="index.php">Home</a>
-                            </li>
-                            <li class="main-nav">
-                                <a href="#">About Us</a>
-                            </li>
-                            <li class="main-nav">
-                                <a href="#">Service</a>
-                            </li>
-                            <li class="main-nav project-a-after">
-                                <a href="#">Blog</a>
-                            </li>
-                            <li class="main-nav project-a-after">
-                                <a href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div> -->
 
                     <div class="loader-wrapper">
                         <div class="loader"></div>

@@ -2888,9 +2888,9 @@ ul.screen__twocol-list > li + li {
 .hex-grid__content--lit {
     background: url("../images/svg/hex-lit.png") no-repeat 50% / contain;
 }
-.hex-grid__content--center {
-    background: url("../images/svg/hex-center.png") no-repeat 50% / contain;
-}
+/*.hex-grid__content--center {*/
+/*    background: url("../images/svg/hex-lit.png") no-repeat 50% / contain;*/
+/*}*/
 .button,
 .hex-grid__link-label {
     position: relative;

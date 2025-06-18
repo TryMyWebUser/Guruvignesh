@@ -8,7 +8,10 @@
 
         <style>
             header {
-                background: #212529!important;
+                background: #000 !important;
+            }
+            img.block.d-none {
+                display: block !important;
             }
         </style>
 
@@ -23,12 +26,16 @@
             <div class="rts-breadcrumb-area bg-white">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12" style="margin-top: 10rem;">
                             <div class="title-area-left center">
-                                <span class="bg-title">Comparator</span>
+                                <span class="bg-title">Business Comparator</span>
                                 <h1 class="title rts-text-anime-style-1">
-                                    Comparator
+                                    Business Comparator
                                 </h1>
+                                <hr style="border: 1px solid #000; width: 36rem; place-self: center;">
+                                <p class="disc" style="color: #009688;">
+                                    <b style="letter-spacing: 2px;">Second-Opinion Compass To Take Confident Decisions For Small Businesses!!</b>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -52,14 +59,7 @@
                         </div>
                         <div class="col-lg-6 mt_md--30 mt_sm--30">
                             <div class="about-content-inner-five">
-                                <div class="title-style-five">
-                                    <span class="pre">Company Name</span>
-                                    <h2 class="title rts-text-anime-style-1">Comparator alias Second Opinion</h2>
-                                </div>
                                 <div class="inner-about-home-7">
-                                    <p class="disc mt-5 mb-4">
-                                        <b>Tagline:  Second-Opinion Compass To Take Confident Decisions For Small Businesses!!</b>
-                                    </p>
                                     <p><b>Clarity. Confidence. Better Decisions.</b> We step in as your independent thinking partner - uncovering context, benchmarking against the best, and challenging assumptions with fresh eyes. Our deep-dive diagnosis, alternative scenarios, and actionable decision blueprint equip you to choose wisely. With focused stakeholder workshops, we ensure alignment and a smooth handover - so you move forward with certainty.</p>
                                 </div>
                             </div>
@@ -75,17 +75,14 @@
                     <div class="row align-items-center">
                         <div class="col">
                             <div class="faq-main-wrapper-content-inner-four">
-                                <div class="title-style-four left">
-                                    <span class="pre">Solutions</span>
-                                    <h2 class="title rts-text-anime-style-1">We Are Experienced <br>
-                                        <span>Business Solution</span>
-                                    </h2>
-                                </div>
+                                <!--<div class="title-style-four left">-->
+                                <!--    <h2 class="title" style="justify-self: center; color: #b5b5b5; letter-spacing: 2px; font-size: 16px;">"It’s your vision - accelerated, tested and ready to thrive"</h2>-->
+                                <!--</div>-->
                                 <div class="accordion mt--40" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                01. What We Deliver?
+                                                What We Deliver?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -104,7 +101,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                02. Why This Works 
+                                                Why Our Solution Works?
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -127,14 +124,14 @@
                                                             <td>Provides actionable briefings and facilitation to lead execution</td>
                                                         </tr>
                                                     </tbody>
-                                                </table>
+                                                </table>  
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                03. What you Get?
+                                                What you Get?
                                             </button>
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -143,32 +140,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#callto" aria-expanded="false" aria-controls="callto">
-                                                04. Call To Action
-                                            </button>
-                                        </h2>
-                                        <div id="callto" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p class="mb-2">“Transform your strategy with a powerful second-opinion-get expert insights that uncover hidden opportunities, challenge assumptions, and sharpen your decisions.”</p>
-                                                <p><b>Book your strategy session today and get a powerful second opinion.</b></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="rts-btn btn-primary btn-white rounded" style="justify-self: center;">
-                                        Get a Free Demo Section
+                                    <button class="btn-primary btn-white" style="border-radius: 4rem; padding: 14px; width: auto; background: #009688; color: #FFF; border: none;">
+                                        Book your strategy session today and get a powerful second opinion
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-6">
-                            <div class="faq-one-thumbnail-wrapper-right" data-animation="zoomOut" data-delay="0.2" data-duration="1.2">
-                                <div class="thumbnail">
-                                    <img src="assets/images/faq/01.webp" alt="faq">
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>

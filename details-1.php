@@ -8,7 +8,10 @@
 
         <style>
             header {
-                background: #212529!important;
+                background: #000 !important;
+            }
+            img.block.d-none {
+                display: block !important;
             }
         </style>
 
@@ -23,12 +26,16 @@
             <div class="rts-breadcrumb-area bg-white">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12" style="margin-top: 10rem;">
                             <div class="title-area-left center">
-                                <span class="bg-title">Igniter</span>
+                                <span class="bg-title">Business Incubator</span>
                                 <h1 class="title rts-text-anime-style-1">
-                                    Igniter
+                                    Business Incubator
                                 </h1>
+                                <hr style="border: 1px solid #000; width: 36rem; place-self: center;">
+                                <p class="disc" style="color: #009688;">
+                                    <b style="letter-spacing: 2px;">Starting Strong With Strategic Clarity For Small Businesses!!</b>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -52,16 +59,8 @@
                         </div>
                         <div class="col-lg-6 mt_md--30 mt_sm--30">
                             <div class="about-content-inner-five">
-                                <div class="title-style-five">
-                                    <span class="pre">Company Name</span>
-                                    <h2 class="title rts-text-anime-style-1">Igniter alias Incubator</h2>
-                                </div>
                                 <div class="inner-about-home-7">
-                                    <p class="disc mt-5 mb-4">
-                                        <b>Tagline: Starting Strong With Strategic Clarity For Small Businesses!!</b>
-                                    </p>
                                     <p class="mb-3"><b>Build. Refine. Launch. Succeed.</b> We explore untapped possibilities, design clear growth pathways, shape and test working models, bring ideas to life with controlled rollouts, and empower you to take charge with confidence. We will co-create and test MVPs that work, pilot real-world launches, and ensure you’re ready to lead.</p>
-                                    <p class="mt-4"><b>It’s your vision - accelerated, tested, and ready to thrive.</b></p>
                                 </div>
                             </div>
                         </div>
@@ -77,16 +76,13 @@
                         <div class="col">
                             <div class="faq-main-wrapper-content-inner-four">
                                 <div class="title-style-four left">
-                                    <span class="pre">Solutions</span>
-                                    <h2 class="title rts-text-anime-style-1">We Are Experienced <br>
-                                        <span>Business Solution</span>
-                                    </h2>
+                                    <h2 class="title" style="justify-self: center; color: #b5b5b5; letter-spacing: 2px; font-size: 16px;">"It’s your vision - accelerated, tested and ready to thrive"</h2>
                                 </div>
                                 <div class="accordion mt--40" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                01. What We Deliver?
+                                                What We Deliver?
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -104,7 +100,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                02. Why This Process Works 
+                                                Why Our Solution Works?
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -121,7 +117,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                03. What you Get?
+                                                What you Get?
                                             </button>
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -130,32 +126,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#callto" aria-expanded="false" aria-controls="callto">
-                                                04. Call To Action
-                                            </button>
-                                        </h2>
-                                        <div id="callto" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <p class="mb-2">"Let’s spark your next breakthrough - book your discovery call now and take the first step toward transformation."</p>
-                                                <p><b>Book your strategy session today and ignite your future - proof growth engine. </b></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="rts-btn btn-primary btn-white rounded" style="justify-self: center;">
-                                        Get a Free Demo Section
+                                    <button class="btn-primary btn-white" style="border-radius: 4rem; padding: 14px; width: auto; background: #009688; color: #FFF; border: none;">
+                                        Book your strategy session today and ignite your future - proof growth engine
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-6">
-                            <div class="faq-one-thumbnail-wrapper-right" data-animation="zoomOut" data-delay="0.2" data-duration="1.2">
-                                <div class="thumbnail">
-                                    <img src="assets/images/faq/01.webp" alt="faq">
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
