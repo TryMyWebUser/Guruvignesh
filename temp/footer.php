@@ -17,12 +17,12 @@
                     <li class="has-droupdown">
                         <a href="#" class="main text-dark" aria-expanded="false">AI Powered Business Solutions</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="text-dark" href="details-1.php">Business Incubator</a></li>
-                            <li><a class="text-dark" href="details-2.php">Business Accelerator</a></li>
-                            <li><a class="text-dark" href="details-3.php">Business Maximizer</a></li>
-                            <li><a class="text-dark" href="details-4.php">Business Comparator</a></li>
-                            <li><a class="text-dark" href="details-5.php">Business Auditor</a></li>
-                            <li><a class="text-dark" href="details-6.php">Business Automator</a></li>
+                            <li><a class="text-dark" href="incubator.php">Business Incubator</a></li>
+                            <li><a class="text-dark" href="accelerator.php">Business Accelerator</a></li>
+                            <li><a class="text-dark" href="maximizer.php">Business Maximizer</a></li>
+                            <li><a class="text-dark" href="comparator.php">Business Comparator</a></li>
+                            <li><a class="text-dark" href="auditor.php">Business Auditor</a></li>
+                            <li><a class="text-dark" href="automator.php">Business Automator</a></li>
                         </ul>
                     </li>
                     <li>

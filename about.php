@@ -164,9 +164,9 @@
                             <div class="large-thumbnail">
                                 <img src="assets/images/business-goal/02.png" alt="" />
                             </div>
-                            <div class="small-thumbnail images-r">
+                            <!-- <div class="small-thumbnail images-r">
                                 <img src="assets/images/business-goal/01.png" alt="" />
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -187,12 +187,12 @@
                 <div class="row g-5 mt--10">
                     <div class="col-md-12 col-sm-12" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
                         <ul style="text-align: -webkit-left; list-style: disc; padding-left: 2rem;">
-                            <li><b>Built It Before We Advised It</b> - We’ve grown and scaled our own business, so we don’t just talk strategy - we’ve lived it, tested it, and proven it.</li>
+                            <li><b>Built It Before We Advise It</b> - We’ve grown and scaled our own business, so we don’t just talk strategy - we’ve lived it, tested it, and proven it. <a href="http://www.homeutility.in" style="color: #2196F3;">http://www.homeutility.in</a></li>
+                            <li><b>Speaker + Mentor to 5,000+ Entrepreneurs</b> - A proven voice in the business community, helping small business owners reimagine what’s possible. <a href="https://guruvignesh.in/" style="color: #2196F3;">https://guruvignesh.in/</a></li>
                             <li><b>Coach + Consultant + Lean Expert</b> - A rare combination of business strategist, ICF-credentialed coach, and certified lean consultant who drives results and builds leadership capacity.</li>
                             <li><b>Data-Driven + AI-Enabled</b> - Every solution is powered by data, analytics, and AI tools to help you stay ahead of the curve. </li>
                             <li><b>Multi-Sector, Small Business DNA</b> - Real-world experience across manufacturing, eCommerce, FMCG, real estate, education, hospitality, trading, ITES, and services - always with small businesses at the heart.</li>
                             <li><b>End-to-End Know-How</b> - From sourcing to last-mile delivery, from factory floor to boardroom - we understand and improve every part of your business journey.</li>
-                            <li><b>Speaker + Mentor to 5,000+ Entrepreneurs</b> - A proven voice in the business community, helping small business owners reimagine what’s possible.</li>
                         </ul>
                     </div>
                 </div>

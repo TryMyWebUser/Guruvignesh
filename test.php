@@ -3,165 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-        <?php include "temp/head.php" ?>
-        
+        <title>Business Advisory Form</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
         <style>
-            ul li a:hover {
-                color: #3b9adb !important;
-            }
-            ul li a {
-                color: #FFF !important;
-            }
-
-            /* Gradient CSS */
-            .blob {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 650px;
-                height: 650px;
-                border-radius: 100%;
-                background-image: linear-gradient(#3F51B5 10% 10%, #2196F3);
-                filter: blur(250px);
-                transition: all 450ms ease-out;
-                position: fixed;
-                pointer-events: none;
-                left: 0;
-                top: 0;
-                transform: translate(calc(-50% + 15px), -50%);
-                z-index: -1;
-            }
-
-            /* Random CSS for Demo */
-            .content-parent {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 50%;
-            }
-
-            .content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .content h1 {
-                font-size: 3vw;
-                text-align: center;
-            }
-
-            .content p {
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                margin-top: 1rem;
-                text-align: center;
-            }
-
-            .buttons {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-top: 3rem;
-            }
-
-            .buttons a {
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                text-decoration: none;
-                color: #fff;
-                padding: 10px 2rem;
-                margin: 0px 6px;
-                border-radius: 25px;
-            }
-
-            .buttons a:nth-child(1) {
-                color: #121212;
-                background-color: #ffffff;
-                transition: all .3s ease;
-            }
-
-            .buttons a:nth-child(1):hover {
-            background: #b7b7b7;
-            color: #000;
-            }
-
-            .buttons a:nth-child(2) {
-                border: 1px solid #fff;
-                transition: all .3s ease;
-            }
-
-            .buttons a:nth-child(2):hover {
-            background: #fff;
-            color: #000;
-            }
-
-            @media only screen and (max-width: 700px) {
-                .content-parent {
-                    width: 90%;
-                }
-
-                .content h1 {
-                    font-size: 2rem;
-                }
-
-                .buttons a {
-                    padding: 6px 1rem;
-                }
-            }
-            
-            @media only screen and (max-width: 700px) {
-                .hero-bg-video .d-none {
-                    display: block !important;
-                }
-                
-                .hero-bg-video .d-block {
-                    display: none !important;
-                }
-                
-                .index-seven-area.rts-section-gap.with-video.bg_banner-seven.two.bg_image.h-auto {
-                    padding-top: 28rem;
-                }
-                
-                .index-seven-area .container .row {
-                    display: flex;
-                    align-items: center;
-                    flex-direction: column-reverse;
-                }
-                .msys {
-                    display: none;
-                }
-                
-                .banner-seven-inner-content .logo.d-block {
-                    display: none !important;
-                }
-                
-                .header-transparent-main-wrapper .block {
-                    display: block !important;
-                }
-                
-                .filter-mv {
-                    filter: contrast(0.5);
-                }
-                
-                .center-img {
-                    width: 80px !important;
-                }
-                
-                .btn-bg-call {
-                    display: block !important;
-                }
-
-                .content-dec {
-                    display: block !important;
-                }
-            }
-
-            /* Form CSS */
-            .form-label {
-                font-weight: 500;
-                color: #333;
+            body {
+                font-family: "Open Sans", sans-serif;
+                background-color: #f8f9fa;
             }
             .modal-content {
                 border-radius: 12px;
@@ -220,161 +70,67 @@
             }
         </style>
     </head>
-
     <body>
-        <?php include "temp/header.php" ?>
-
-        <div class="page-wrapper radious-none-button">
-            <div class="banner-seven-swiper-wrapper">
-                <!-- index seven area start -->
-                <div class="index-seven-area rts-section-gap with-video bg_banner-seven two bg_image h-auto d-block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 msys" style="align-content: center;">
-                                <div class="banner-seven-inner-content p-0">
-                                    <img src="assets/images/logo-1.png" class="logo d-block" style="justify-self: flex-start;" width="300" alt="transparent" /> 
-                                    <!--<span class="pre-title">-->
-                                    <!--    <img src="assets/images/banner/icon/01.svg" alt="banner" />-->
-                                    <!--    Business Coach-->
-                                    <!--</span>-->
-                                    <!--<h1 class="title py-2">-->
-                                    <!--    Guru-->
-                                    <!--    <span>vignesh</span>-->
-                                    <!--</h1>-->
-                                    <p class="disc">
-                                        Guru blends hands-on 16+ years business experience, lean strategy, data-driven insights, AI-enabled innovation, and mindful coaching to help small businesses scale smarter, build stronger teams, and lead with confidence.
-                                    </p>
-                                    <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="border-radius: 15px;">Free Discovery Session</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 filter-mv" style="place-items: center;">
-                                <div class="screen screen--scrollable landing-screen trans-group is-in page--bg" id="landing">
-                                    <div class="content-parent">
-                                        <ul class="hex-grid hex-grid--cols-3 hex-grid--rows-3">
-                                            <li class="hex-grid__item hex-grid__r1-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--lt">
-                                                <a href="incubator.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--br trans-hex-layer trans-hex-layer-2" title="Starting Strong With Strategic Clarity For Small Businesses!">
-                                                    <div class="hex-grid__blur-bg"></div>
-                                                    Incubator
-                                                </a>
-                                            </li>
-                                            <li class="hex-grid__item hex-grid__r1-t hex-grid__c2 hex-grid__marker d:hex-grid__marker--t">
-                                                <a href="accelerator.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer" title="Speed & Agile Execution for Small Business Growth!">
-                                                    <div class="hex-grid__blur-bg"></div>
-                                                    Accelerator
-                                                </a>
-                                            </li>
-                                            <li class="hex-grid__item hex-grid__r1-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--rt">
-                                                <a href="maximizer.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-2" title="Enterprise Outreach, Resilience & Combat Readiness For Small Businesses!">
-                                                    <div class="hex-grid__blur-bg"></div>
-                                                    Maximizer
-                                                </a>
-                                            </li>
-                                            <li class="hex-grid__item hex-grid__r2-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--lt">
-                                                <a href="automator.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3" title="Precision-Powered, Future-Proof, Self-Optimizing Small Business Engine!">
-                                                    <div class="hex-grid__blur-bg"></div>
-                                                    Automator
-                                                </a>
-                                            </li>
-                                            <li class="hex-grid__item hex-grid__item--center hex-grid__r2-t hex-grid__c2 trans-fade">
-                                                <div class="hex-grid__content hex-grid__content--center">
-                                                    <a href="index.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3">
-                                                        <div class="hex-grid__blur-bg"></div>
-                                                        <img src="assets/images/bg-logo.png" class="center-img" width="150" alt="" />
-                                                    </a>
-                                                </div>
-                                            </li>
-                                            <li class="hex-grid__item hex-grid__r2-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--rt">
-                                                <a href="auditor.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3" title="Precision Audits For Small-Business Excellence!">
-                                                    <div class="hex-grid__blur-bg"></div>
-                                                    Auditor
-                                                </a>
-                                            </li>
-                                            <li class="hex-grid__item hex-grid__r3-t hex-grid__c2 hex-grid__marker d:hex-grid__marker--b">
-                                                <a href="comparator.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-4" title="Second-Opinion Compass To Take Confident Decisions For Small Businesses!">
-                                                    <div class="hex-grid__blur-bg"></div>
-                                                    Comparator
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hero-bg-video">
-                        <video class="d-block" autoplay="" muted="" loop="" id="myVideo">
-                            <source src="assets/images/banner/01.mp4" type="video/mp4" />
-                        </video>
-                        <video class="d-none" autoplay="" muted="" loop="" id="myVideo">
-                            <source src="assets/images/banner/02.mp4" type="video/mp4" />
-                        </video>
-                        <button class="rts-btn btn-primary btn-white rounded btn-bg-call d-none" data-bs-toggle="modal" data-bs-target="#businessFormModal" style="letter-spacing: 1px; justify-self: center; position: absolute; top: 25rem; right: 1rem; border-radius: 4rem !important; background: #008196c4 !important; color: #ffffff !important; font-size: 10px; padding: 10px; height: auto;">
-                            Free Discovery Session
-                        </button>
-                        <p class="content-dec d-none" style="letter-spacing: 1px; justify-self: center; position: absolute; top: 14rem; right: 2rem; color: #F44336; font-size: 10px; line-height: 15px; left: 2rem;">Future-proof your business with AI and experience-backed strategy. Act now.</p>
-                    </div>
-                </div>
-                <!-- index seven area end -->
-            </div>
+        <!-- Button trigger modal -->
+        <div class="container mt-5 text-center">
+            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#businessFormModal"><i class="fas fa-clipboard-list me-2"></i>Start Business Assessment</button>
         </div>
 
-        <?php include "temp/footer.php" ?>
-
-        <div class="modal fade" id="businessFormModal" tabindex="-1" aria-labelledby="businessFormModalLabel" aria-hidden="true" style="background: rgba(0, 0, 0, 0.5); align-content: center;">
+        <!-- Modal -->
+        <div class="modal fade" id="businessFormModal" tabindex="-1" aria-labelledby="businessFormModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="businessFormModalLabel">Business Clarity & Discovery</h4>
+                        <h5 class="modal-title" id="businessFormModalLabel">Business Clarity & Discovery</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body account-page-body">
+                    <div class="modal-body">
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
                         <!-- Step 1: Basic Information -->
-                        <div class="form-step mian-wrapper-form active" id="step1">
+                        <div class="form-step active" id="step1">
                             <div class="form-header">
                                 <h5>Basic Information</h5>
                                 <p class="text-muted">Let's start with some basic details</p>
                             </div>
                             <div class="mb-3">
-                                <input type="text" name="name" placeholder="Name" id="name" required/>
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required />
                             </div>
                             <div class="mb-3">
-                                <input type="number" name="phone" placeholder="Mobile Number" id="contact" required/>
-                            </div>
-                            <div class="mb-3">
-                                <input type="email" name="email" placeholder="Email Address" required/>
+                                <label for="contact" class="form-label">Mobile & Email</label>
+                                <input type="text" class="form-control" id="contact" required />
                             </div>
                         </div>
 
                         <!-- Step 2: Business Description -->
-                        <div class="form-step mian-wrapper-form" id="step2">
+                        <div class="form-step" id="step2">
                             <div class="form-header">
                                 <h5>About Your Business</h5>
                                 <p class="text-muted">Tell us about your business and team</p>
                             </div>
                             <div class="mb-3">
-                                <label for="businessDescription" class="form-label">What does your business do, and who makes up your team? Explain in detail...</label>
-                                <textarea id="businessDescription" name="step2" rows="6" required></textarea>
+                                <label for="businessDescription" class="form-label">What does your business do, and who makes up your team? Explain in detail</label>
+                                <textarea class="form-control" id="businessDescription" rows="4" required></textarea>
                             </div>
                         </div>
 
                         <!-- Step 3: Business Goals -->
-                        <div class="form-step mian-wrapper-form" id="step3">
+                        <div class="form-step" id="step3">
                             <div class="form-header">
                                 <h5>Your Business Goals</h5>
                                 <p class="text-muted">What are you aiming to achieve?</p>
                             </div>
                             <div class="mb-3">
                                 <label for="businessGoals" class="form-label">What are your top 2-3 business goals for the next 6-12 months?</label>
-                                <textarea id="businessGoals" name="step3" rows="6" required></textarea>
+                                <textarea class="form-control" id="businessGoals" rows="3" required></textarea>
                             </div>
                         </div>
 
                         <!-- Step 4: Challenges -->
-                        <div class="form-step mian-wrapper-form" id="step4">
+                        <div class="form-step" id="step4">
                             <div class="form-header">
                                 <h5>Current Challenges</h5>
                                 <p class="text-muted">Select areas that are most challenging</p>
@@ -382,109 +138,123 @@
                             <div class="mb-3">
                                 <label class="form-label">Which of these areas are currently most challenging? (Select all that apply)</label>
                                 <div class="form-check">
-                                    <input type="checkbox" id="challenge1" name="challenges" value="Leadership & team culture"/>
-                                    <label  class="form-label" for="challenge1">Leadership & team culture</label>
+                                    <input class="form-check-input" type="checkbox" id="challenge1" name="challenges" value="Leadership & team culture" />
+                                    <label class="form-check-label" for="challenge1">Leadership & team culture</label>
                                 </div>
                                 <div class="form-check">
-                                    <input type="checkbox" id="challenge2" name="challenges" value="Operations & efficiency" />
-                                    <label  class="form-label" for="challenge2">Operations & efficiency</label>
+                                    <input class="form-check-input" type="checkbox" id="challenge2" name="challenges" value="Operations & efficiency" />
+                                    <label class="form-check-label" for="challenge2">Operations & efficiency</label>
                                 </div>
                                 <div class="form-check">
-                                    <input type="checkbox" id="challenge3" name="challenges" value="Sales & revenue growth" />
-                                    <label class="form-label" for="challenge3">Sales & revenue growth</label>
+                                    <input class="form-check-input" type="checkbox" id="challenge3" name="challenges" value="Sales & revenue growth" />
+                                    <label class="form-check-label" for="challenge3">Sales & revenue growth</label>
                                 </div>
                                 <div class="form-check">
-                                    <input type="checkbox" id="challenge4" name="challenges" value="Talent development & retention" />
-                                    <label class="form-label" for="challenge4">Talent development & retention</label>
+                                    <input class="form-check-input" type="checkbox" id="challenge4" name="challenges" value="Talent development & retention" />
+                                    <label class="form-check-label" for="challenge4">Talent development & retention</label>
                                 </div>
                                 <div class="form-check">
-                                    <input type="checkbox" id="challenge5" name="challenges" value="Decision making & implementation" />
-                                    <label class="form-label" for="challenge5">Decision making & implementation</label>
+                                    <input class="form-check-input" type="checkbox" id="challenge5" name="challenges" value="Decision making & implementation" />
+                                    <label class="form-check-label" for="challenge5">Decision making & implementation</label>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Step 5: Previous Solutions -->
-                        <div class="form-step mian-wrapper-form" id="step5">
+                        <div class="form-step" id="step5">
                             <div class="form-header">
                                 <h5>Previous Solutions</h5>
                                 <p class="text-muted">Have you tried to solve these challenges before?</p>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Have you tried to solve these challenges so far?</label>
-                                <div class="yes-no-btns d-flex justify-content-start align-items-center">
-                                    <button type="button" class="rts-btn btn-success me-5" onclick="showConditionalField(this, 'yes')">Yes</button>
-                                    <button type="button" class="rts-btn btn-primary" onclick="showConditionalField(this, 'no')">No</button>
+                                <div class="yes-no-btns">
+                                    <button type="button" class="btn btn-outline-primary" onclick="showConditionalField(this, 'yes')">Yes</button>
+                                    <button type="button" class="btn btn-outline-primary" onclick="showConditionalField(this, 'no')">No</button>
                                 </div>
                                 <div id="solutionsField" class="conditional-field">
                                     <label for="solutionsTried" class="form-label mt-3">How have you tried to solve these challenges?</label>
-                                    <textarea id="solutionsTried" rows="6" required></textarea>
+                                    <textarea class="form-control" id="solutionsTried" rows="3"></textarea>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Step 6: Consequences -->
-                        <div class="form-step mian-wrapper-form" id="step6">
+                        <div class="form-step" id="step6">
                             <div class="form-header">
                                 <h5>Potential Consequences</h5>
                                 <p class="text-muted">What if these challenges remain unresolved?</p>
                             </div>
                             <div class="mb-3">
                                 <label for="consequences" class="form-label">What happens if these challenges remain unresolved?</label>
-                                <textarea id="consequences" rows="6" required></textarea>
+                                <textarea class="form-control" id="consequences" rows="3" required></textarea>
                             </div>
                         </div>
 
                         <!-- Step 7: Success Vision -->
-                        <div class="form-step mian-wrapper-form" id="step7">
+                        <div class="form-step" id="step7">
                             <div class="form-header">
                                 <h5>Vision of Success</h5>
                                 <p class="text-muted">Imagine these challenges were resolved</p>
                             </div>
                             <div class="mb-3">
                                 <label for="successVision" class="form-label">What would success look like if these were resolved?</label>
-                                <textarea id="successVision" rows="6" required></textarea>
+                                <textarea class="form-control" id="successVision" rows="3" required></textarea>
                             </div>
                         </div>
 
                         <!-- Step 8: Timeline -->
-                        <div class="form-step mian-wrapper-form" id="step8">
+                        <div class="form-step" id="step8">
                             <div class="form-header">
                                 <h5>Timeline Expectations</h5>
                                 <p class="text-muted">When would you like to begin seeing results?</p>
                             </div>
                             <div class="mb-3">
                                 <label for="timeline" class="form-label">When would you like to begin seeing results from our work together?</label>
-                                <textarea id="timeline" rows="6" required></textarea>
+                                <input type="text" class="form-control" id="timeline" required />
                             </div>
                         </div>
 
                         <!-- Step 9: KPIs -->
-                        <div class="form-step mian-wrapper-form" id="step9">
+                        <div class="form-step" id="step9">
                             <div class="form-header">
                                 <h5>Key Performance Indicators</h5>
                                 <p class="text-muted">Do you have specific metrics to track?</p>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Do you have specific KPIs you want to hit? (e.g., revenue, retention, efficiency)</label>
-                                <textarea class="form-control" id="specificKPIs" rows="6" required></textarea>
+                                <div class="yes-no-btns">
+                                    <button type="button" class="btn btn-outline-primary" onclick="showConditionalField(this, 'yes')">Yes</button>
+                                    <button type="button" class="btn btn-outline-primary" onclick="showConditionalField(this, 'no')">No</button>
+                                </div>
+                                <div id="kpisField" class="conditional-field">
+                                    <label for="specificKPIs" class="form-label mt-3">Please specify your KPIs:</label>
+                                    <textarea class="form-control" id="specificKPIs" rows="3"></textarea>
+                                </div>
                             </div>
                         </div>
 
                         <!-- Step 10: Previous Experience -->
-                        <div class="form-step mian-wrapper-form" id="step10">
+                        <div class="form-step" id="step10">
                             <div class="form-header">
                                 <h5>Previous Consulting Experience</h5>
                                 <p class="text-muted">Have you worked with a coach/consultant before?</p>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Have you worked with a coach/consultant before, and how did it go?</label>
-                                <textarea class="form-control" id="previousExperience" rows="6" required></textarea>
+                                <label class="form-label">Have you worked with a coach/consultant before?</label>
+                                <div class="yes-no-btns">
+                                    <button type="button" class="btn btn-outline-primary" onclick="showConditionalField(this, 'yes')">Yes</button>
+                                    <button type="button" class="btn btn-outline-primary" onclick="showConditionalField(this, 'no')">No</button>
+                                </div>
+                                <div id="consultantExperienceField" class="conditional-field">
+                                    <label for="previousExperience" class="form-label mt-3">How did it go?</label>
+                                    <textarea class="form-control" id="previousExperience" rows="3"></textarea>
+                                </div>
                             </div>
                         </div>
 
                         <!-- Step 11: Review -->
-                        <div class="form-step mian-wrapper-form" id="step11">
+                        <div class="form-step" id="step11">
                             <div class="form-header">
                                 <h5>Review Your Information</h5>
                                 <p class="text-muted">Please verify your answers before submitting</p>
@@ -495,19 +265,19 @@
                         </div>
 
                         <!-- Step 12: Thank You -->
-                        <div class="form-step mian-wrapper-form" id="step12">
+                        <div class="form-step" id="step12">
                             <div class="text-center py-4">
                                 <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
                                 <h3 class="mt-3">Thank You!</h3>
                                 <p class="lead">Your form has been submitted successfully.</p>
                                 <p>We'll review your information and get back to you soon.</p>
-                                <button type="button" class="rts-btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
 
                         <div class="form-footer d-flex justify-content-between">
-                            <button type="button" class="rts-btn btn-primary btn-white" id="prevBtn" onclick="prevStep()"><i class="fas fa-arrow-left me-2"></i>Previous</button>
-                            <button type="button" class="rts-btn btn-primary" id="nextBtn" onclick="nextStep()">Next<i class="fas fa-arrow-right ms-2"></i></button>
+                            <button type="button" class="btn btn-outline-primary" id="prevBtn" onclick="prevStep()"><i class="fas fa-arrow-left me-2"></i>Previous</button>
+                            <button type="button" class="btn btn-primary" id="nextBtn" onclick="nextStep()">Next<i class="fas fa-arrow-right ms-2"></i></button>
                         </div>
                     </div>
                 </div>
@@ -723,6 +493,5 @@
                 }, 5000);
             }
         </script>
-        
     </body>
 </html>

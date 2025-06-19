@@ -57,6 +57,15 @@
                             </div>
                             <div class="single-contact-info">
                                 <div class="icon">
+                                    <i class="fab fa-whatsapp" style="font-size: x-large; font-weight: bold;"></i>
+                                </div>
+                                <div class="info-wrapper">
+                                    <span>Whatsapp</span>
+                                    <a href="https://wa.me/+919751825077">+91 975 182 5077</a>
+                                </div>
+                            </div>
+                            <div class="single-contact-info">
+                                <div class="icon">
                                     <i class="fa-solid fa-envelope"></i>
                                 </div>
                                 <div class="info-wrapper">

@@ -1,5 +1,5 @@
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
-<title>Guruvignesh</title>
+<title>Businessadvisor</title>
 <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style" />
 <link rel="stylesheet preload" href="assets/css/plugins/swiper.css" as="style" />
 <link rel="stylesheet preload" href="assets/css/plugins/metismenu.css" as="style" />
