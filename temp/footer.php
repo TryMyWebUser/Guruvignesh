@@ -61,6 +61,7 @@
 </div>
 <!-- progress area end -->
 
+
 <div class="modal fade" id="businessFormModal" tabindex="-1" aria-labelledby="businessFormModalLabel" aria-hidden="true" style="background: rgba(0, 0, 0, 0.5); align-content: center;">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -77,8 +78,6 @@
                 <div class="form-step mian-wrapper-form active" id="step1">
                     <div class="form-header">
                         <p class="text-muted" style="color: #FF9800 !important;">Kindly spend less than <b>5 minutes</b> to fill the client profiler form to help us know you and your business. We will respond within <b>24 hours</b> to confirm the slot for the <b>FREE Discovery Session</b>.</p>
-                        <!--<h5>Basic Information</h5>-->
-                        <!--<p class="text-muted">Let's start with some basic details</p>-->
                     </div>
                     <div class="mb-3">
                         <input type="text" name="name" placeholder="Name" id="name" required/>
@@ -93,7 +92,7 @@
                         <input type="number" name="phone" placeholder="Mobile Number" id="contact" required/>
                     </div>
                     <div class="mb-3">
-                        <input type="email" name="email" placeholder="Email Address" required/>
+                        <input type="email" name="email" placeholder="Email Address" id="email" required/>
                     </div>
                 </div>
 
@@ -117,15 +116,14 @@
                     </div>
                     <div class="mb-3">
                         <label for="businessGoals" class="form-label">What are your top 2-3 business goals for the next 6-12 months?</label>
-                        <!--<textarea id="businessGoals" name="step3" rows="6" required></textarea>-->
                         <div class="mb-3">
-                            <input type="text" name="one" placeholder="1." id="one" required/>
+                            <input type="text" name="one" placeholder="1." id="goal1" required/>
                         </div>
                         <div class="mb-3">
-                            <input type="text" name="two" placeholder="2." id="two" required/>
+                            <input type="text" name="two" placeholder="2." id="goal2"/>
                         </div>
                         <div class="mb-3">
-                            <input type="text" name="three" placeholder="3." id="three" required/>
+                            <input type="text" name="three" placeholder="3." id="goal3"/>
                         </div>
                     </div>
                 </div>
@@ -159,11 +157,11 @@
                         </div>
                         <div class="form-check">
                             <input type="checkbox" id="challenge6" name="challenges" value="Strategic planning & decision-making" />
-                            <label class="form-label" for="challenge5">Strategic planning & decision-making</label>
+                            <label class="form-label" for="challenge6">Strategic planning & decision-making</label>
                         </div>
                         <div class="form-check">
                             <input type="checkbox" id="challenge7" name="challenges" value="Cash flow & financial management" />
-                            <label class="form-label" for="challenge5">Cash flow & financial management</label>
+                            <label class="form-label" for="challenge7">Cash flow & financial management</label>
                         </div>
                     </div>
                 </div>
@@ -176,11 +174,17 @@
                     <div class="mb-3">
                         <label class="form-label">Have you tried to solve these challenges so far?</label>
                         <div class="yes-no-btns d-flex justify-content-start align-items-center">
-                            <button type="button" class="rts-btn btn-success me-5" onclick="showConditionalField(this, 'yes')">Yes</button>
-                            <button type="button" class="rts-btn btn-primary" onclick="showConditionalField(this, 'no')">No</button>
+                            <div class="form-check me-3">
+                                <input class="form-check-input" type="radio" name="triedSolutions" id="triedSolutionsYes" value="yes" onclick="showConditionalField(this, 'yes')" required>
+                                <label class="form-check-label" for="triedSolutionsYes">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="triedSolutions" id="triedSolutionsNo" value="no" onclick="showConditionalField(this, 'no')">
+                                <label class="form-check-label" for="triedSolutionsNo">No</label>
+                            </div>
                         </div>
-                        <div id="solutionsField" class="conditional-field">
-                            <label for="solutionsTried" class="form-label mt-3">Mention the action which you have taken to address the challenge?</label>
+                        <div id="solutionsField" class="conditional-field mt-3" style="display: none;">
+                            <label for="solutionsTried" class="form-label">Mention the action which you have taken to address the challenge?</label>
                             <textarea id="solutionsTried" rows="6" required></textarea>
                         </div>
                     </div>
@@ -215,14 +219,13 @@
                     </div>
                     <div class="mb-3">
                         <label for="timeline" class="form-label">When would you like to work together with us to begin seeing results?</label>
-                        <!--<textarea id="timeline" rows="6" required></textarea>-->
                         <div class="form-check">
-                            <input type="radio" id="challenge11" name="challenges" value="Immediately"/>
-                            <label  class="form-label" for="challenge11">Immediately</label>
+                            <input type="radio" id="timeline1" name="timeline" value="Immediately" required/>
+                            <label  class="form-label" for="timeline1">Immediately</label>
                         </div>
                         <div class="form-check">
-                            <input type="radio" id="challenge22" name="challenges" value="Within next 15 days" />
-                            <label class="form-label" for="challenge22">Within next 15 days</label>
+                            <input type="radio" id="timeline2" name="timeline" value="Within next 15 days" />
+                            <label class="form-label" for="timeline2">Within next 15 days</label>
                         </div>
                     </div>
                 </div>
@@ -251,7 +254,10 @@
 
                 <!-- Step 11: Review -->
                 <div class="form-step mian-wrapper-form" id="step11">
-                    <div class="form-header">
+                    <div class="text-center py-4">
+                        <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
+                        <h3 class="mt-3">Thank You!</h3>
+                        <p>We will respond within <b>24 hours</b> to confirm the slot for the <b>FREE Discovery Session</b>.</p>
                         <h5>Review Your Information</h5>
                         <p class="text-muted">Please verify your responses before submitting</p>
                     </div>
@@ -266,7 +272,6 @@
                         <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
                         <h3 class="mt-3">Thank You!</h3>
                         <p>We will respond within <b>24 hours</b> to confirm the slot for the <b>FREE Discovery Session</b>.</p>
-                        <!--<button type="button" class="rts-btn btn-primary" data-bs-dismiss="modal">Close</button>-->
                     </div>
                 </div>
 
@@ -279,173 +284,351 @@
     </div>
 </div>
 
-<!-- Bootstrap JS Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-    let currentStep = 1;
-    const totalSteps = 12;
-
-    // Initialize the form
-    document.addEventListener("DOMContentLoaded", function () {
-        updateProgressBar();
-    });
-
-    function nextStep() {
-        if (currentStep === totalSteps - 1) {
-            submitForm();
-            return;
-        }
-
-        document.getElementById(`step${currentStep}`).classList.remove("active");
-        currentStep++;
-        document.getElementById(`step${currentStep}`).classList.add("active");
-        updateProgressBar();
-        updateButtonStates();
-
-        if (currentStep === 11) {
-            prepareReview();
-        }
+<style>
+    .is-invalid {
+        border-color: #dc3545 !important;
     }
 
-    function prevStep() {
-        if (currentStep > 1) {
+    .error-message {
+        font-size: 1.4rem;
+        /* margin-left: 1.4rem; */
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let currentStep = 1;
+        const totalSteps = 12;
+
+        // Initialize the form
+        updateProgressBar();
+        document.getElementById("solutionsField").style.display = "none";
+
+        // Navigation functions
+        window.nextStep = function() {
+            if (!validateCurrentStep()) {
+                return;
+            }
+
+            if (currentStep === totalSteps - 1) {
+                submitForm();
+                return;
+            }
+
             document.getElementById(`step${currentStep}`).classList.remove("active");
-            currentStep--;
+            currentStep++;
             document.getElementById(`step${currentStep}`).classList.add("active");
             updateProgressBar();
             updateButtonStates();
+
+            if (currentStep === 11) {
+                prepareReview();
+            }
+        };
+
+        window.prevStep = function() {
+            if (currentStep > 1) {
+                document.getElementById(`step${currentStep}`).classList.remove("active");
+                currentStep--;
+                document.getElementById(`step${currentStep}`).classList.add("active");
+                updateProgressBar();
+                updateButtonStates();
+            }
+        };
+
+        // Form validation
+        function validateCurrentStep() {
+            const currentStepEl = document.getElementById(`step${currentStep}`);
+            let isValid = true;
+
+            // Clear all existing error messages
+            const existingErrors = currentStepEl.querySelectorAll('.error-message');
+            existingErrors.forEach(error => error.remove());
+
+            // Clear all invalid states
+            const invalidInputs = currentStepEl.querySelectorAll('.is-invalid');
+            invalidInputs.forEach(input => input.classList.remove('is-invalid'));
+
+            // Step-specific validation
+            switch(currentStep) {
+                case 1: // Basic Information
+                    const requiredFields = ['name', 'cname', 'web', 'contact', 'email'];
+                    requiredFields.forEach(field => {
+                        const input = document.getElementById(field);
+                        if (!input.value.trim()) {
+                            showError(input, 'This field is required');
+                            isValid = false;
+                        }
+                        
+                        // Email validation
+                        if (field === 'email' && input.value.trim()) {
+                            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                            if (!emailRegex.test(input.value)) {
+                                showError(input, 'Please enter a valid email address');
+                                isValid = false;
+                            }
+                        }
+                        
+                        // Phone validation
+                        if (field === 'contact' && input.value.trim()) {
+                            const phoneRegex = /^[0-9]{10,15}$/;
+                            if (!phoneRegex.test(input.value)) {
+                                showError(input, 'Please enter a valid phone number (10-15 digits)');
+                                isValid = false;
+                            }
+                        }
+                    });
+                    break;
+
+                case 3: // Business Goals (only first goal required)
+                    const goal1 = document.getElementById("goal1");
+                    if (!goal1.value.trim()) {
+                        showError(goal1, 'At least one business goal is required');
+                        isValid = false;
+                    }
+                    break;
+
+                case 4: // Challenges (at least one checkbox)
+                    const challengesSelected = currentStepEl.querySelectorAll('input[name="challenges"]:checked').length > 0;
+                    if (!challengesSelected) {
+                        const error = document.createElement('div');
+                        error.className = 'error-message text-danger mt-2';
+                        error.textContent = 'Please select at least one challenge';
+                        currentStepEl.querySelector('.form-label').after(error);
+                        isValid = false;
+                    }
+                    break;
+
+                case 5: // Previous Solutions
+                    const triedSolutions = document.querySelector('input[name="triedSolutions"]:checked');
+                    if (!triedSolutions) {
+                        const error = document.createElement('div');
+                        error.className = 'error-message text-danger mt-2';
+                        error.textContent = 'Please select an option';
+                        document.querySelector('.yes-no-btns').appendChild(error);
+                        isValid = false;
+                    } else if (triedSolutions.value === 'yes' && !document.getElementById("solutionsTried").value.trim()) {
+                        showError(document.getElementById("solutionsTried"), 'Please describe the solutions you tried');
+                        isValid = false;
+                    }
+                    break;
+
+                case 8: // Timeline (radio required)
+                    const timelineSelected = currentStepEl.querySelector('input[name="timeline"]:checked');
+                    if (!timelineSelected) {
+                        const error = document.createElement('div');
+                        error.className = 'error-message text-danger mt-2';
+                        error.textContent = 'Please select a timeline option';
+                        currentStepEl.querySelector('.form-label').after(error);
+                        isValid = false;
+                    }
+                    break;
+
+                default:
+                    // Validate all required fields in other steps
+                    const inputs = currentStepEl.querySelectorAll('input[required], textarea[required], select[required]');
+                    inputs.forEach(input => {
+                        if (!input.value.trim()) {
+                            showError(input, 'This field is required');
+                            isValid = false;
+                        }
+                    });
+            }
+
+            return isValid;
         }
-    }
 
-    function updateProgressBar() {
-        const progress = (currentStep / totalSteps) * 100;
-        document.querySelector(".progress-bar").style.width = `${progress}%`;
-        document.querySelector(".progress-bar").setAttribute("aria-valuenow", progress);
-    }
-
-    function updateButtonStates() {
-        const prevBtn = document.getElementById("prevBtn");
-        const nextBtn = document.getElementById("nextBtn");
-
-        if (currentStep === 1) {
-            prevBtn.style.display = "none";
-        } else {
-            prevBtn.style.display = "block";
+        function showError(input, message) {
+            input.classList.add('is-invalid');
+            const error = document.createElement('div');
+            error.className = 'error-message text-danger mt-1';
+            error.textContent = message;
+            input.parentNode.insertBefore(error, input.nextSibling);
         }
 
-        if (currentStep === totalSteps) {
-            nextBtn.style.display = "none";
-        } else if (currentStep === totalSteps - 1) {
-            nextBtn.innerHTML = 'Submit<i class="fas fa-paper-plane ms-2"></i>';
-        } else {
-            nextBtn.innerHTML = 'Next<i class="fas fa-arrow-right ms-2"></i>';
+        // Conditional field for Step 5
+        window.showConditionalField = function(radio, answer) {
+            const solutionsField = document.getElementById("solutionsField");
+            const solutionsTried = document.getElementById("solutionsTried");
+            
+            if (answer === 'yes') {
+                solutionsField.style.display = 'block';
+                solutionsTried.required = true;
+            } else {
+                solutionsField.style.display = 'none';
+                solutionsTried.required = false;
+                solutionsTried.value = '';
+            }
+            
+            // Update radio button styling
+            document.querySelectorAll('input[name="triedSolutions"]').forEach(radio => {
+                const label = document.querySelector(`label[for="${radio.id}"]`);
+                if (radio.checked) {
+                    label.classList.add('fw-bold');
+                    label.classList.add(radio.value === 'yes' ? 'text-success' : 'text-primary');
+                } else {
+                    label.classList.remove('fw-bold', 'text-success', 'text-primary');
+                }
+            });
         }
-    }
 
-    function showConditionalField(button, answer) {
-        const parentDiv = button.closest(".mb-3");
-        const conditionalField = parentDiv.querySelector(".conditional-field");
+        // Progress bar and button states
+        function updateProgressBar() {
+            const progress = (currentStep / totalSteps) * 100;
+            document.querySelector(".progress-bar").style.width = `${progress}%`;
+            document.querySelector(".progress-bar").setAttribute("aria-valuenow", progress);
+        }
 
-        // Reset all buttons in this group
-        const buttons = parentDiv.querySelectorAll(".yes-no-btns .btn");
-        buttons.forEach((btn) => {
-            btn.classList.remove("btn-primary");
-            btn.classList.add("btn-outline-primary");
-        });
+        function updateButtonStates() {
+            const prevBtn = document.getElementById("prevBtn");
+            const nextBtn = document.getElementById("nextBtn");
 
-        // Highlight selected button
-        button.classList.remove("btn-outline-primary");
-        button.classList.add("btn-primary");
+            prevBtn.style.display = currentStep === 1 ? "none" : "block";
 
-        if (answer === "yes") {
-            conditionalField.style.display = "block";
-            const input = conditionalField.querySelector("input, textarea");
-            if (input) input.required = true;
-        } else {
-            conditionalField.style.display = "none";
-            const input = conditionalField.querySelector("input, textarea");
-            if (input) {
-                input.required = false;
-                input.value = "";
+            if (currentStep === totalSteps) {
+                nextBtn.style.display = "none";
+            } else {
+                nextBtn.style.display = "block";
+                nextBtn.innerHTML = currentStep === totalSteps - 1 
+                    ? 'Submit <i class="fas fa-paper-plane ms-2"></i>' 
+                    : 'Next <i class="fas fa-arrow-right ms-2"></i>';
             }
         }
-    }
 
-    function prepareReview() {
-        const reviewContent = document.getElementById("reviewContent");
-        let html = '<div class="card"><div class="card-body"><h5 class="card-title">Your Submission</h5><ul class="list-group list-group-flush">';
+        // Review step preparation
+        function prepareReview() {
+            const reviewContent = document.getElementById("reviewContent");
+            let html = '<div class="card"><div class="card-body"><h5 class="card-title">Your Submission</h5><ul class="list-group list-group-flush">';
 
-        // Add all form data to review
-        html += `<li class="list-group-item"><strong>Name:</strong> ${document.getElementById("name").value}</li>`;
-        html += `<li class="list-group-item"><strong>Contact:</strong> ${document.getElementById("contact").value}</li>`;
-        html += `<li class="list-group-item"><strong>Business Description:</strong> ${document.getElementById("businessDescription").value}</li>`;
-        html += `<li class="list-group-item"><strong>Business Goals:</strong> ${document.getElementById("businessGoals").value}</li>`;
+            // Basic Information
+            html += `<li class="list-group-item"><strong>Name:</strong> ${document.getElementById("name").value}</li>`;
+            html += `<li class="list-group-item"><strong>Company:</strong> ${document.getElementById("cname").value}</li>`;
+            html += `<li class="list-group-item"><strong>Website:</strong> ${document.getElementById("web").value}</li>`;
+            html += `<li class="list-group-item"><strong>Phone:</strong> ${document.getElementById("contact").value}</li>`;
+            html += `<li class="list-group-item"><strong>Email:</strong> ${document.getElementById("email").value}</li>`;
 
-        // Challenges
-        const challenges = [];
-        document.querySelectorAll('input[name="challenges"]:checked').forEach((chk) => {
-            challenges.push(chk.value);
-        });
-        html += `<li class="list-group-item"><strong>Challenges:</strong> ${challenges.join(", ") || "None selected"}</li>`;
+            // Business Description
+            html += `<li class="list-group-item"><strong>Business Description:</strong> ${document.getElementById("businessDescription").value}</li>`;
 
-        // Previous solutions
-        const solutionsField = document.getElementById("solutionsField");
-        if (solutionsField.style.display === "block") {
-            html += `<li class="list-group-item"><strong>Previous Solutions Tried:</strong> ${document.getElementById("solutionsTried").value}</li>`;
-        } else {
-            html += `<li class="list-group-item"><strong>Previous Solutions Tried:</strong> No</li>`;
-        }
-
-        html += `<li class="list-group-item"><strong>Consequences if Unresolved:</strong> ${document.getElementById("consequences").value}</li>`;
-        html += `<li class="list-group-item"><strong>Vision of Success:</strong> ${document.getElementById("successVision").value}</li>`;
-        html += `<li class="list-group-item"><strong>Timeline Expectations:</strong> ${document.getElementById("timeline").value}</li>`;
-
-        // KPIs
-        const kpisField = document.getElementById("kpisField");
-        if (kpisField.style.display === "block") {
-            html += `<li class="list-group-item"><strong>Specific KPIs:</strong> ${document.getElementById("specificKPIs").value}</li>`;
-        } else {
-            html += `<li class="list-group-item"><strong>Specific KPIs:</strong> No</li>`;
-        }
-
-        // Previous consultant experience
-        const consultantField = document.getElementById("consultantExperienceField");
-        if (consultantField.style.display === "block") {
-            html += `<li class="list-group-item"><strong>Previous Consultant Experience:</strong> ${document.getElementById("previousExperience").value}</li>`;
-        } else {
-            html += `<li class="list-group-item"><strong>Previous Consultant Experience:</strong> No</li>`;
-        }
-
-        html += "</ul></div></div>";
-        reviewContent.innerHTML = html;
-    }
-
-    function submitForm() {
-        // Here you would typically send the form data to a server
-        // For this example, we'll just show the thank you message
-
-        document.getElementById(`step${currentStep}`).classList.remove("active");
-        currentStep++;
-        document.getElementById(`step${currentStep}`).classList.add("active");
-        updateProgressBar();
-        updateButtonStates();
-
-        // Reset form after 5 seconds
-        setTimeout(() => {
-            const modal = bootstrap.Modal.getInstance(document.getElementById("businessFormModal"));
-            modal.hide();
-
-            // Reset form
-            document.querySelectorAll(".form-step").forEach((step) => {
-                step.classList.remove("active");
+            // Business Goals
+            const goals = [];
+            ['goal1', 'goal2', 'goal3'].forEach(id => {
+                const value = document.getElementById(id).value.trim();
+                if (value) goals.push(value);
             });
+            html += `<li class="list-group-item"><strong>Business Goals:</strong>`;
+            html += goals.length ? `<ol>${goals.map(g => `<li>${g}</li>`).join('')}</ol>` : 'None provided';
+            html += `</li>`;
+
+            // Challenges
+            const challenges = Array.from(document.querySelectorAll('input[name="challenges"]:checked')).map(c => c.value);
+            html += `<li class="list-group-item"><strong>Challenges:</strong>`;
+            html += challenges.length ? `<ul>${challenges.map(c => `<li>${c}</li>`).join('')}</ul>` : 'None selected';
+            html += `</li>`;
+
+            // Previous Solutions
+            const triedSolutions = document.querySelector('input[name="triedSolutions"]:checked');
+            html += `<li class="list-group-item"><strong>Previous Solutions:</strong> `;
+            html += triedSolutions.value === 'yes' 
+                ? document.getElementById("solutionsTried").value 
+                : 'No solutions tried';
+            html += `</li>`;
+
+            // Other fields
+            html += `<li class="list-group-item"><strong>Consequences if Unresolved:</strong> ${document.getElementById("consequences").value}</li>`;
+            html += `<li class="list-group-item"><strong>Vision of Success:</strong> ${document.getElementById("successVision").value}</li>`;
+            html += `<li class="list-group-item"><strong>Timeline:</strong> ${document.querySelector('input[name="timeline"]:checked')?.value || 'Not specified'}</li>`;
+            html += `<li class="list-group-item"><strong>KPIs:</strong> ${document.getElementById("specificKPIs").value}</li>`;
+            html += `<li class="list-group-item"><strong>Previous Experience:</strong> ${document.getElementById("previousExperience").value}</li>`;
+
+            html += "</ul></div></div>";
+            reviewContent.innerHTML = html;
+        }
+
+        // Form submission
+        function submitForm() {
+            // Collect form data
+            const formData = {
+                name: document.getElementById("name").value,
+                company: document.getElementById("cname").value,
+                website: document.getElementById("web").value,
+                phone: document.getElementById("contact").value,
+                email: document.getElementById("email").value,
+                businessDescription: document.getElementById("businessDescription").value,
+                goals: ['goal1', 'goal2', 'goal3']
+                    .map(id => document.getElementById(id).value.trim())
+                    .filter(g => g),
+                challenges: Array.from(document.querySelectorAll('input[name="challenges"]:checked')).map(c => c.value),
+                triedSolutions: document.querySelector('input[name="triedSolutions"]:checked').value,
+                solutionsTried: document.querySelector('input[name="triedSolutions"]:checked').value === 'yes' 
+                    ? document.getElementById("solutionsTried").value 
+                    : 'No solutions tried',
+                consequences: document.getElementById("consequences").value,
+                successVision: document.getElementById("successVision").value,
+                timeline: document.querySelector('input[name="timeline"]:checked')?.value || 'Not specified',
+                kpis: document.getElementById("specificKPIs").value,
+                previousExperience: document.getElementById("previousExperience").value
+            };
+
+            // Format WhatsApp message
+            const message = `*Business Advisory Request Form*\n\n` +
+                `*Basic Information*\n` +
+                `Name: ${formData.name}\n` +
+                `Company: ${formData.company}\n` +
+                `Website: ${formData.website}\n` +
+                `Phone: ${formData.phone}\n` +
+                `Email: ${formData.email}\n\n` +
+                
+                `*Business Description*\n${formData.businessDescription}\n\n` +
+                
+                `*Business Goals*\n${formData.goals.map((g, i) => `${i+1}. ${g}`).join('\n')}\n\n` +
+                
+                `*Current Challenges*\n${formData.challenges.length ? formData.challenges.map(c => `• ${c}`).join('\n') : 'None specified'}\n\n` +
+                
+                `*Previous Solutions*\n` +
+                `Tried solutions before? ${formData.triedSolutions === 'yes' ? 'Yes' : 'No'}\n` +
+                `${formData.triedSolutions === 'yes' ? `Solutions tried:\n${formData.solutionsTried}\n\n` : '\n'}` +
+                
+                `*Consequences if Unresolved*\n${formData.consequences}\n\n` +
+                
+                `*Vision of Success*\n${formData.successVision}\n\n` +
+                
+                `*Timeline Expectations*\n${formData.timeline}\n\n` +
+                
+                `*Key Performance Indicators*\n${formData.kpis}\n\n` +
+                
+                `*Previous Consulting Experience*\n${formData.previousExperience}`;
+
+            // Open WhatsApp
+            const whatsappNumber = "919751825077";
+            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, "_blank");
+
+            // Proceed to thank you step
+            document.getElementById(`step${currentStep}`).classList.remove("active");
+            currentStep++;
+            document.getElementById(`step${currentStep}`).classList.add("active");
+            updateProgressBar();
+            updateButtonStates();
+
+            // Reset form after delay
+            setTimeout(() => {
+                const modal = bootstrap.Modal.getInstance(document.getElementById("businessFormModal"));
+                modal.hide();
+                resetForm();
+            }, 5000);
+        }
+
+        function resetForm() {
+            document.querySelectorAll(".form-step").forEach(step => step.classList.remove("active"));
             document.getElementById("step1").classList.add("active");
+            document.querySelector("form").reset();
+            document.getElementById("solutionsField").style.display = "none";
             currentStep = 1;
             updateProgressBar();
             updateButtonStates();
-            document.querySelector("form").reset();
-        }, 5000);
-    }
+        }
+    });
 </script>
 
 <script defer src="assets/js/plugins/jquery.js"></script>

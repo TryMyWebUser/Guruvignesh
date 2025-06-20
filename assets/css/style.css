@@ -1241,14 +1241,14 @@ input[type=radio] {
 input[type=checkbox] ~ label,
 input[type=radio] ~ label {
   position: relative;
-  font-size: 12px;
+  /* font-size: 12px; */
   line-height: 17px;
   color: var(--color-body);
   font-weight: 400;
-  padding-left: 25px;
+  /* padding-left: 25px; */
   cursor: pointer;
 }
-input[type=checkbox] ~ label::before,
+/* input[type=checkbox] ~ label::before,
 input[type=radio] ~ label::before {
   content: " ";
   position: absolute;
@@ -1260,8 +1260,8 @@ input[type=radio] ~ label::before {
   border-radius: 2px;
   transition: all 0.3s;
   border-radius: 2px;
-}
-input[type=checkbox] ~ label::after,
+} */
+/* input[type=checkbox] ~ label::after,
 input[type=radio] ~ label::after {
   content: " ";
   position: absolute;
@@ -1276,7 +1276,7 @@ input[type=radio] ~ label::after {
   transform: rotate(-45deg);
   opacity: 0;
   transition: all 0.3s;
-}
+} */
 input[type=checkbox]:checked ~ label::after,
 input[type=radio]:checked ~ label::after {
   opacity: 1;
@@ -22675,7 +22675,8 @@ body.contact-page .rts-breadcrumb-area .title-area-left {
 .account-page-body .mian-wrapper-form input {
   height: 50px;
   border-radius: 0;
-  margin-bottom: 15px;
+  /* margin-right: 10px;
+  margin-left: 15px; */
   border-color: #f1f1f1;
 }
 .account-page-body .mian-wrapper-form input:focus {

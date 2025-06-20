@@ -140,7 +140,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button class="btn-primary btn-white" style="border-radius: 4rem; padding: 14px; width: auto; background: #009688; color: #FFF; border: none;">
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#businesscom" class="btn-primary btn-white" style="border-radius: 4rem; padding: 14px; width: auto; background: #009688; color: #FFF; border: none;">
                                         Book your strategy session today and get a powerful second opinion
                                     </button>
                                 </div>
@@ -154,6 +154,237 @@
         </div>
 
         <?php include "temp/footer.php" ?>
+
+        <div class="modal fade" id="businesscom" tabindex="-1" aria-labelledby="businesscomLabel" aria-hidden="true" style="background: rgba(0, 0, 0, 0.5); align-content: center;">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="businessFormModalLabel">BusinessAdvisor.Guru - Client Profiler</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body account-page-body">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <!-- Step 1: Basic Information -->
+                        <div class="form-step mian-wrapper-form active" id="step1">
+                            <div class="form-header">
+                                <p class="text-muted" style="color: #FF9800 !important;">Please fill out this form to request advisory support. We'll respond within <b>24 hours</b>.</p>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="name" placeholder="Name*" id="name" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="firmName" placeholder="Firm Name*" id="firmName" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" placeholder="Email Address*" id="email" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" name="mobile" placeholder="Mobile Number*" id="mobile" required/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="website" placeholder="LinkedIn Profile or Website URL"/>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Business Issue -->
+                        <div class="form-step mian-wrapper-form" id="step2">
+                            <div class="form-header">
+                                <h5>Business Advisory Support</h5>
+                                <p class="text-muted">Tell us about the issue you need help with</p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="businessIssue" class="form-label">Elaborate the business issue for which you need this advisory support?*</label>
+                                <textarea id="businessIssue" name="businessIssue" rows="8" required></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Review -->
+                        <div class="form-step mian-wrapper-form" id="step3">
+                            <div class="text-center py-4">
+                                <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
+                                <h3 class="mt-3">Review Your Information</h3>
+                                <p class="text-muted">Please verify your responses before submitting</p>
+                            </div>
+                            <div class="mb-3">
+                                <div id="reviewContent"></div>
+                            </div>
+                        </div>
+
+                        <!-- Step 4: Thank You -->
+                        <div class="form-step mian-wrapper-form" id="step4">
+                            <div class="text-center py-4">
+                                <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
+                                <h3 class="mt-3">Thank You!</h3>
+                                <p>We will respond within <b>24 hours</b> regarding your advisory support request.</p>
+                            </div>
+                        </div>
+
+                        <div class="form-footer d-flex justify-content-between">
+                            <button type="button" class="rts-btn btn-primary btn-white" id="prevBtn" onclick="prevStep()"><i class="fas fa-arrow-left me-2"></i>Previous</button>
+                            <button type="button" class="rts-btn btn-primary" id="nextBtn" onclick="nextStep()">Next<i class="fas fa-arrow-right ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            textarea {
+                min-height: 150px;
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+        </style>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                let currentStep = 1;
+                const totalSteps = 4;
+
+                // Initialize the form
+                updateProgressBar();
+                updateButtonStates();
+
+                // Navigation functions
+                window.nextStep = function() {
+                    if (currentStep === totalSteps - 1) {
+                        submitForm();
+                        return;
+                    }
+
+                    document.getElementById(`step${currentStep}`).classList.remove("active");
+                    currentStep++;
+                    document.getElementById(`step${currentStep}`).classList.add("active");
+                    updateProgressBar();
+                    updateButtonStates();
+
+                    if (currentStep === 3) { // Review step
+                        prepareReview();
+                    }
+                };
+
+                window.prevStep = function() {
+                    if (currentStep > 1) {
+                        document.getElementById(`step${currentStep}`).classList.remove("active");
+                        currentStep--;
+                        document.getElementById(`step${currentStep}`).classList.add("active");
+                        updateProgressBar();
+                        updateButtonStates();
+                    }
+                };
+
+                // Progress bar and button states
+                function updateProgressBar() {
+                    const progress = (currentStep / totalSteps) * 100;
+                    document.querySelector(".progress-bar").style.width = `${progress}%`;
+                    document.querySelector(".progress-bar").setAttribute("aria-valuenow", progress);
+                }
+
+                function updateButtonStates() {
+                    const prevBtn = document.getElementById("prevBtn");
+                    const nextBtn = document.getElementById("nextBtn");
+
+                    prevBtn.style.display = currentStep === 1 ? "none" : "block";
+
+                    if (currentStep === totalSteps) {
+                        nextBtn.style.display = "none";
+                    } else {
+                        nextBtn.style.display = "block";
+                        nextBtn.innerHTML = currentStep === totalSteps - 1 
+                            ? 'Submit <i class="fas fa-paper-plane ms-2"></i>' 
+                            : 'Next <i class="fas fa-arrow-right ms-2"></i>';
+                    }
+                }
+
+                // Review step preparation
+                function prepareReview() {
+                    const reviewContent = document.getElementById("reviewContent");
+                    if (!reviewContent) return;
+                    
+                    let html = '<div class="card"><div class="card-body"><h5 class="card-title">Your Submission</h5><ul class="list-group list-group-flush">';
+
+                    // Safely get field values with null checks
+                    const getName = () => document.getElementById("name")?.value || 'Not provided';
+                    const getFirmName = () => document.getElementById("firmName")?.value || 'Not provided';
+                    const getEmail = () => document.getElementById("email")?.value || 'Not provided';
+                    const getMobile = () => document.getElementById("mobile")?.value || 'Not provided';
+                    const getWebsite = () => document.getElementById("website")?.value || 'Not provided';
+                    const getBusinessIssue = () => document.getElementById("businessIssue")?.value.replace(/\n/g, '<br>') || 'Not provided';
+
+                    // Basic Information
+                    html += `<li class="list-group-item"><strong>Name:</strong> ${getName()}</li>`;
+                    html += `<li class="list-group-item"><strong>Firm Name:</strong> ${getFirmName()}</li>`;
+                    html += `<li class="list-group-item"><strong>Email:</strong> ${getEmail()}</li>`;
+                    html += `<li class="list-group-item"><strong>Mobile:</strong> ${getMobile()}</li>`;
+                    html += `<li class="list-group-item"><strong>LinkedIn/Website:</strong> ${getWebsite()}</li>`;
+
+                    // Business Issue
+                    html += `<li class="list-group-item"><strong>Business Issue:</strong><div class="mt-2 p-2 bg-light rounded">${getBusinessIssue()}</div></li>`;
+
+                    html += "</ul></div></div>";
+                    reviewContent.innerHTML = html;
+                }
+
+                // Form submission with null checks
+                function submitForm() {
+                    // Safely get form data with null checks
+                    const formData = {
+                        name: document.getElementById("name")?.value || '',
+                        firmName: document.getElementById("firmName")?.value || '',
+                        email: document.getElementById("email")?.value || '',
+                        mobile: document.getElementById("mobile")?.value || '',
+                        website: document.getElementById("website")?.value || '',
+                        businessIssue: document.getElementById("businessIssue")?.value || ''
+                    };
+
+                    // Format WhatsApp message
+                    const message = `*Business Advisory - Second Opinion Validator Support Request*\n\n` +
+                        `*Contact Information*\n` +
+                        `Name: ${formData.name || 'Not provided'}\n` +
+                        `Firm: ${formData.firmName || 'Not provided'}\n` +
+                        `Email: ${formData.email || 'Not provided'}\n` +
+                        `Mobile: ${formData.mobile || 'Not provided'}\n` +
+                        `LinkedIn/Website: ${formData.website || 'Not provided'}\n\n` +
+                        
+                        `*Business Issue*\n${formData.businessIssue || 'Not provided'}`;
+
+                    // Open WhatsApp
+                    const whatsappNumber = "919751825077";
+                    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+                    window.open(whatsappURL, "_blank");
+
+                    // Proceed to thank you step
+                    document.getElementById(`step${currentStep}`)?.classList.remove("active");
+                    currentStep++;
+                    document.getElementById(`step${currentStep}`)?.classList.add("active");
+                    updateProgressBar();
+                    updateButtonStates();
+
+                    // Reset form after delay
+                    setTimeout(() => {
+                        const modal = bootstrap.Modal.getInstance(document.getElementById("businessin"));
+                        if (modal) modal.hide();
+                        resetForm();
+                    }, 5000);
+                }
+
+                function resetForm() {
+                    document.querySelectorAll(".form-step").forEach(step => step.classList.remove("active"));
+                    document.getElementById("step1")?.classList.add("active");
+                    document.querySelectorAll('input, textarea').forEach(input => {
+                        if (input) input.value = '';
+                    });
+                    currentStep = 1;
+                    updateProgressBar();
+                    updateButtonStates();
+                }
+            });
+        </script>
 
     </body>
 </html>
