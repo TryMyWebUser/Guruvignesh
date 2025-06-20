@@ -43,15 +43,15 @@
         <!-- contact areas main -->
         <div class="rts-contact-area-in-page bg-white" data-animation="fadeInUp" data-delay="0.2">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
+                <div class="row align-items-center flex-column">
+                    <div class="col-lg-12">
                         <div class="contact-info-area-wrapper-p new">
                             <div class="single-contact-info">
                                 <div class="icon">
                                     <i class="fa-solid fa-phone-flip"></i>
                                 </div>
                                 <div class="info-wrapper">
-                                    <span>Call Us</span>
+                                    <span>Call</span>
                                     <a href="tel:9600765577">+91 960 076 5577</a>
                                 </div>
                             </div>
@@ -69,8 +69,8 @@
                                     <i class="fa-solid fa-envelope"></i>
                                 </div>
                                 <div class="info-wrapper">
-                                    <span>Work with us</span>
-                                    <a href="mailto:guru@businessadvisor.guru">guru@businessadvisor.guru</a>
+                                    <span>Email</span>
+                                    <a href="mailto:guru@businessadvisor.guru?cc=vignesh.rajamanickam@gmail.com">guru@businessadvisor.guru</a>
                                 </div>
                             </div>
                             <div class="single-contact-info">
@@ -84,17 +84,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12 mt-5">
                         <div class="contact-form-p new">
-                            <form class="form__content" method="post" action="https://html.themewant.com/invena/mailer.php" id="contact-form">
-                                <h4 class="title">Get In Touch</h4>
-                                <input name="name" id="name" type="text" placeholder="Your Name" />
-                                <input type="email" name="email" id="email" placeholder="Example@gmail.com" />
-                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                            <!--<form class="form__content" method="post" action="https://html.themewant.com/invena/mailer.php" id="contact-form">-->
+                            <!--    <h4 class="title">Get In Touch</h4>-->
+                            <!--    <input name="name" id="name" type="text" placeholder="Your Name" />-->
+                            <!--    <input type="email" name="email" id="email" placeholder="Example@gmail.com" />-->
+                            <!--    <textarea name="message" id="message" placeholder="Message"></textarea>-->
 
-                                <div id="form-messages"></div>
-                                <button class="rts-btn btn-primary" type="submit">Get In Touch</button>
-                            </form>
+                            <!--    <div id="form-messages"></div>-->
+                            <!--    <button class="rts-btn btn-primary" type="submit">Get In Touch</button>-->
+                            <!--</form>-->
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; margin-bottom: 3rem; color: #FFF;">Get FREE Discovery Session</a>
                         </div>
                     </div>
                 </div>

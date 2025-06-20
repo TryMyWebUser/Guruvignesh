@@ -24,13 +24,11 @@ class Database
             if ($connection->connect_error)
             {
                 die("Connection Failed: " . $connection->connect_error);
-            }
-            else
-            {
+            } else {
                 Database::$conn = $connection;
                 return Database::$conn;
             }
-
+        } else {
             return Database::$conn;
         }
     }

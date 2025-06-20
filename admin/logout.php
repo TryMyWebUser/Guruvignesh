@@ -1,14 +1,14 @@
 <?php
 
-    include "../libs/load.php";
+include "libs/load.php";
 
-    // Start a session
-    Session::start();
+// Start a session
+Session::start();
 
-    if (Session::destroy())
-    {
-        header("Location: index.php");
-        exit;
-    }
+if (Session::destroy())
+{
+    header("Location: index.php");
+    exit;
+}
 
 ?>

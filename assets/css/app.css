@@ -1556,6 +1556,7 @@ ul.screen__twocol-list > li + li {
     align-items: center;
     padding: 15px 15px 15px;
     width: fit-content;
+    flex-direction: column;
 }
 .landing-screen__spectrum {
     margin-bottom: 16px;
@@ -2817,6 +2818,7 @@ ul.screen__twocol-list > li + li {
     height: 100%;
     width: 100%;
     text-align: center;
+    font-size: large !important;
 }
 .hex-grid__content--interactive:before,
 .hex-grid__content:before {

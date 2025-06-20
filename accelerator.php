@@ -28,9 +28,9 @@
                     <div class="row">
                         <div class="col-lg-12" style="margin-top: 10rem;">
                             <div class="title-area-left center">
-                                <span class="bg-title">Business Accelerator</span>
+                                <span class="bg-title">Growth Accelerator </span>
                                 <h1 class="title rts-text-anime-style-1">
-                                    Business Accelerator
+                                    Growth Accelerator 
                                 </h1>
                                 <hr style="border: 1px solid #000; width: 36rem; place-self: center;">
                                 <p class="disc" style="color: #009688;">
@@ -54,7 +54,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 pr--70 pr_md--0 pr_sm--0">
                             <div class="thumbnail-about-five">
-                                <img src="assets/images/about/10.webp" alt="">
+                                <img src="assets/images/about/2.png" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 mt_md--30 mt_sm--30">

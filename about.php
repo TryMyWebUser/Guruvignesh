@@ -102,6 +102,7 @@
                                 <p class="disc">
                                     <b>Guru</b> blends hands-on business experience, lean strategy, data-driven insights, AI-enabled innovation, and mindful coaching to help small businesses scale smarter, build stronger teams, and lead with confidence.
                                 </p>
+                                <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="margin-bottom: 10rem !important; border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; color: #FFF;">Get FREE Discovery Session</a>
                             </div>
                         </div>
                     </div>
@@ -113,6 +114,7 @@
             </div>
         </div>
         <!-- rts about area end -->
+        
 
         <!-- rts business goal area start -->
         <div class="business-goal-area-2 rts-section-gapBottom bg-white">
@@ -132,7 +134,7 @@
                                     <img src="assets/images/about/icons/01.svg" alt="" />
                                 </div>
                                 <div class="information">
-                                    <h4 class="title">More Than a Brand. A Promise. A Person.</h4>
+                                    <h4 class="title" style="color: brown;">More Than a Brand. A Promise. A Person.</h4>
                                     <p class="disc">
                                         <b>BusinessAdvisor.Guru</b> reflects both our founder’s identity and our mission:
                                     </p>
@@ -148,7 +150,7 @@
                                     <img src="assets/images/about/icons/02.svg" alt="" />
                                 </div>
                                 <div class="information">
-                                    <h4 class="title">Real-World Expertise That Delivers</h4>
+                                    <h4 class="title" style="color: brown;">Real-World Expertise That Delivers</h4>
                                     <p class="disc">
                                         From manufacturing to eCommerce, HR, FMCG, real estate, education, supply chain, hospitality, trading, ITES, and beyond - <b>Guru</b> brings advice forged in action, not theory.
                                     </p>
@@ -195,6 +197,7 @@
                             <li><b>End-to-End Know-How</b> - From sourcing to last-mile delivery, from factory floor to boardroom - we understand and improve every part of your business journey.</li>
                         </ul>
                     </div>
+                <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="margin-left: 2rem; border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; margin-bottom: 3rem; color: #FFF;">Get FREE Discovery Session</a>
                 </div>
             </div>
         </div>

@@ -1,8 +1,8 @@
 Toastify({
-  text: "Welcome to Zayn Admin.",
+  text: "Welcome to Businessadvisor.Guru",
   duration: 3000,
   close: true,
-  avatar: "assets/images/user1.png",
+  avatar: "assets/images/user4.png",
   className: "bg-primary",
   offset: {
     x: 30,
