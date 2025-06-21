@@ -57,10 +57,10 @@ class User
         }
     }
 
-    public static function setProducts($img, $dec, $cate)
+    public static function setProducts($dec, $price, $img, $cate)
     {
         $conn = Database::getConnect();
-        $targetDir = "../uploads/products/";
+        $targetDir = "../uploads/solutions/";
 
         if (!is_dir($targetDir)) {
             mkdir($targetDir, 0777, true);
@@ -80,22 +80,22 @@ class User
             return "Error uploading image.";
         }
 
-        $sql = "INSERT INTO `products`(`img`, `dec`, `category`, `created_at`)
-                VALUES (?, ?, ?, NOW())";
+        $sql = "INSERT INTO `products`(`img`, `dec`, `price`, `category`, `created_at`)
+                VALUES (?, ?, ?, ?, NOW())";
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param("sss", $filePath, $dec, $cate);
+        $stmt->bind_param("ssss", $filePath, $dec, $price, $cate);
 
         if ($stmt->execute()) {
-            header("Location: viewProduct.php");
+            header("Location: viewPro.php");
             exit;
         } else {
             return "Error occurred while saving data: " . $stmt->error;
         }
     }
-    public static function updateProducts($img, $dec, $cate, $getID)
+    public static function updateProducts($dec, $price, $img, $cate, $getID)
     {
         $conn = Database::getConnect();
-        $targetDir = "../uploads/products/";
+        $targetDir = "../uploads/solutions/";
 
         if (!is_dir($targetDir)) {
             mkdir($targetDir, 0777, true);
@@ -126,17 +126,17 @@ class User
                 unlink($qry['img']);
             }
 
-            $sql = "UPDATE `products` SET `img` = ?, `dec` = ?, `category` = ?, `created_at` = NOW() WHERE `id` = ?";
+            $sql = "UPDATE `products` SET `img` = ?, `dec` = ?, `price` = ?, `category` = ?, `created_at` = NOW() WHERE `id` = ?";
             $stmt = $conn->prepare($sql);
-            $stmt->bind_param("sssi", $filePath, $dec, $cate, $getID);
+            $stmt->bind_param("ssssi", $filePath, $dec, $price, $cate, $getID);
         } else {
-            $sql = "UPDATE `products` SET `dec` = ?, `category` = ?, `created_at` = NOW() WHERE `id` = ?";
+            $sql = "UPDATE `products` SET `dec` = ?, `category` = ?, `price` = ?, `created_at` = NOW() WHERE `id` = ?";
             $stmt = $conn->prepare($sql);
-            $stmt->bind_param("ssi", $dec, $cate, $getID);
+            $stmt->bind_param("sssi", $dec, $cate, $price, $getID);
         }
 
         if ($stmt->execute()) {
-            header("Location: viewProduct.php");
+            header("Location: viewPro.php");
             exit;
         } else {
             return "Error occurred while saving data: " . $stmt->error;
@@ -172,6 +172,39 @@ class User
 
         if ($stmt->execute()) {
             header("Location: viewBlogs.php");
+            exit;
+        } else {
+            return "Error occurred while saving data: " . $stmt->error;
+        }
+    }
+
+    public static function setOur($whom, $deliver, $solution, $get, $cate)
+    {
+        $conn = Database::getConnect();
+        $uniqid = uniqid();
+
+        $sql = "INSERT INTO `our` (`whom`, `deliver`, `solution`, `get`, `category`, `created_at`) 
+                VALUES (?, ?, ?, ?, ?, NOW())";
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("sssss", $whom, $deliver, $solution, $get, $cate);
+
+        if ($stmt->execute()) {
+            header("Location: viewPro.php");
+            exit;
+        } else {
+            return "Error occurred while saving data: " . $stmt->error;
+        }
+    }
+    public static function updateOur($whom, $deliver, $solution, $get, $cate, $getID)
+    {
+        $conn = Database::getConnect();
+
+        $sql = "UPDATE `our` SET `whom` = ?, `deliver` = ?, `solution` = ?, `get` = ?, `category` = ?, `created_at` = NOW() WHERE `id` = ?";
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("sssssi", $whom, $deliver, $solution, $get, $cate, $getID);
+
+        if ($stmt->execute()) {
+            header("Location: viewPro.php");
             exit;
         } else {
             return "Error occurred while saving data: " . $stmt->error;

@@ -2,7 +2,7 @@
     <!-- App brand starts -->
     <div class="app-brand px-3 py-2 d-flex align-items-center">
         <a href="index.php">
-            <img src="assets/images/logo.svg" class="logo" alt="Best Admin Templates" />
+            <img src="../assets/images/bg-logo.png" class="logo" alt="Best Admin Templates" />
         </a>
     </div>
     <!-- App brand ends -->
@@ -51,10 +51,10 @@
                 </a>
                 <ul class="treeview-menu">
                     <li>
-                        <a href="addProduct.php">Add Solution</a>
+                        <a href="addPro.php">Add Solution</a>
                     </li>
                     <li>
-                        <a href="viewProduct.php">View Solutions</a>
+                        <a href="viewPro.php">View Solutions</a>
                     </li>
                 </ul>
             </li>

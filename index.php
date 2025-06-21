@@ -1,3 +1,16 @@
+<?php
+
+    include "libs/load.php";
+
+    $var = [];
+
+    $category = Operations::getCategory();
+    foreach ($category as $cate) {
+        $var[] = $cate;
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -181,18 +194,10 @@
                             <div class="col-lg-6 col-md-6 col-sm-12 msys" style="align-content: center;">
                                 <div class="banner-seven-inner-content p-0">
                                     <img src="assets/images/logo-1.png" class="logo d-block" style="justify-self: flex-start;" width="300" alt="transparent" /> 
-                                    <!--<span class="pre-title">-->
-                                    <!--    <img src="assets/images/banner/icon/01.svg" alt="banner" />-->
-                                    <!--    Business Coach-->
-                                    <!--</span>-->
-                                    <!--<h1 class="title py-2">-->
-                                    <!--    Guru-->
-                                    <!--    <span>vignesh</span>-->
-                                    <!--</h1>-->
                                     <p class="disc" style="filter: drop-shadow(-1px 0px 3px black);">
                                         Guru blends hands-on 16+ years business experience, lean strategy, data-driven insights, AI-enabled innovation, and mindful coaching to help small businesses scale smarter, build stronger teams, and lead with confidence.
                                     </p>
-                                    <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="border-radius: 15px;">Free Discovery Session</a>
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="border-radius: 15px;">Get New Business Ideas</a>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 filter-mv" style="place-items: center;">
@@ -201,27 +206,27 @@
                                     <div class="content-parent">
                                         <ul class="hex-grid hex-grid--cols-3 hex-grid--rows-3">
                                             <li class="hex-grid__item hex-grid__r1-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--lt">
-                                                <a href="automator.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--br trans-hex-layer trans-hex-layer-2" title="Starting Strong With Strategic Clarity For Small Businesses!">
+                                                <a href="automator.php?data=<?= $var[5]['uniqid'] ?>" class="hex-grid__content hex-grid__content--interactive hex-grid__content--br trans-hex-layer trans-hex-layer-2" title="Starting Strong With Strategic Clarity For Small Businesses!">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                    Future Ready Automator
+                                                    <?= $var[5]['category'] ?>
                                                 </a>
                                             </li>
                                             <li class="hex-grid__item hex-grid__r1-t hex-grid__c2 hex-grid__marker d:hex-grid__marker--t">
-                                                <a href="incubator.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer" title="Speed & Agile Execution for Small Business Growth!">
+                                                <a href="incubator.php?data=<?= $var[0]['uniqid'] ?>" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer" title="Speed & Agile Execution for Small Business Growth!">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                    Startup Incubator
+                                                    <?= $var[0]['category'] ?>
                                                 </a>
                                             </li>
                                             <li class="hex-grid__item hex-grid__r1-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--rt">
-                                                <a href="accelerator.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-2" title="Enterprise Outreach, Resilience & Combat Readiness For Small Businesses!">
+                                                <a href="accelerator.php?data=<?= $var[1]['uniqid'] ?>" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-2" title="Enterprise Outreach, Resilience & Combat Readiness For Small Businesses!">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                    Growth Accelerator
+                                                    <?= $var[1]['category'] ?>
                                                 </a>
                                             </li>
                                             <li class="hex-grid__item hex-grid__r2-b hex-grid__c1 hex-grid__marker d:hex-grid__marker--lt">
-                                                <a href="auditor.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3" title="Precision-Powered, Future-Proof, Self-Optimizing Small Business Engine!">
+                                                <a href="auditor.php?data=<?= $var[2]['uniqid'] ?>" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3" title="Precision-Powered, Future-Proof, Self-Optimizing Small Business Engine!">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                    Performance Auditor
+                                                    <?= $var[2]['category'] ?>
                                                 </a>
                                             </li>
                                             <li class="hex-grid__item hex-grid__item--center hex-grid__r2-t hex-grid__c2 trans-fade">
@@ -233,15 +238,15 @@
                                                 </div>
                                             </li>
                                             <li class="hex-grid__item hex-grid__r2-b hex-grid__c3 hex-grid__marker d:hex-grid__marker--dark d:hex-grid__marker--rt">
-                                                <a href="maximizer.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3" title="Precision Audits For Small-Business Excellence!">
+                                                <a href="maximizer.php?data=<?= $var[3]['uniqid'] ?>" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-3" title="Precision Audits For Small-Business Excellence!">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                     Profit Maximizer
+                                                    <?= $var[3]['category'] ?>
                                                 </a>
                                             </li>
                                             <li class="hex-grid__item hex-grid__r3-t hex-grid__c2 hex-grid__marker d:hex-grid__marker--b">
-                                                <a href="comparator.php" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-4" title="Second-Opinion Compass To Take Confident Decisions For Small Businesses!">
+                                                <a href="comparator.php?data=<?= $var[4]['uniqid'] ?>" class="hex-grid__content hex-grid__content--interactive hex-grid__content--tr trans-hex-layer trans-hex-layer-4" title="Second-Opinion Compass To Take Confident Decisions For Small Businesses!">
                                                     <div class="hex-grid__blur-bg"></div>
-                                                    Second Opinion Validator 
+                                                    <?= $var[4]['category'] ?>
                                                 </a>
                                             </li>
                                         </ul>
@@ -260,7 +265,7 @@
                         <p class="content-dec d-none" style="letter-spacing: 1px; justify-self: center; position: absolute; top: 24rem; right: 2rem; color: #FFF; font-size: 9px; line-height: 15px; left: 2rem; filter: drop-shadow(-1px 0px 3px black);">Guru blends hands-on 16+ years business experience, lean strategy & data-driven insights to help small businesses scale smarter.</p>
                     </div>
                     <button class="rts-btn btn-primary btn-white rounded btn-bg-call d-none" data-bs-toggle="modal" data-bs-target="#businessFormModal" style="letter-spacing: 1px; justify-self: center; position: absolute; top: 28rem; right: 1rem; border-radius: 4rem !important; background: #008196c4 !important; color: #ffffff !important; font-size: 10px; padding: 10px; height: auto;">
-                        Free Discovery Session
+                        Get New Business Ideas
                     </button>
                 </div>
                 <!-- index seven area end -->

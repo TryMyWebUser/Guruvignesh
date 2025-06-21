@@ -1,3 +1,16 @@
+<?php
+
+    include "libs/load.php";
+
+    $var = [];
+
+    $category = Operations::getCategory();
+    foreach ($category as $cate) {
+        $var[] = $cate;
+    }
+
+?>
+
 <div id="side-bar" class="side-bar header-two">
     <button class="close-icon-menu" title="Close menu"><i class="far fa-times"></i></button>
     <!-- inner menu area desktop start -->
@@ -17,12 +30,12 @@
                     <li class="has-droupdown">
                         <a href="#" class="main text-dark" aria-expanded="false">AI Powered Business Solutions</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="text-dark" href="incubator.php">Startup Incubator</a></li>
-                            <li><a class="text-dark" href="accelerator.php">Growth Accelerator</a></li>
-                            <li><a class="text-dark" href="maximizer.php">Profit Maximizer</a></li>
-                            <li><a class="text-dark" href="comparator.php">Second Opinion Validator</a></li>
-                            <li><a class="text-dark" href="auditor.php">Performance Auditor</a></li>
-                            <li><a class="text-dark" href="automator.php">Future Ready Automator</a></li>
+                            <li><a class="text-dark" href="incubator.php?data=<?= $var[0]['uniqid'] ?>"><?= $var[0]['category'] ?></a></li>
+                            <li><a class="text-dark" href="accelerator.php?data=<?= $var[1]['uniqid'] ?>"><?= $var[1]['category'] ?></a></li>
+                            <li><a class="text-dark" href="maximizer.php?data=<?= $var[2]['uniqid'] ?>"><?= $var[2]['category'] ?></a></li>
+                            <li><a class="text-dark" href="comparator.php?data=<?= $var[3]['uniqid'] ?>"><?= $var[3]['category'] ?></a></li>
+                            <li><a class="text-dark" href="auditor.php?data=<?= $var[4]['uniqid'] ?>"><?= $var[4]['category'] ?></a></li>
+                            <li><a class="text-dark" href="automator.php?data=<?= $var[5]['uniqid'] ?>"><?= $var[5]['category'] ?></a></li>
                         </ul>
                     </li>
                     <li>
@@ -77,7 +90,7 @@
                 <!-- Step 1: Basic Information -->
                 <div class="form-step mian-wrapper-form active" id="step1">
                     <div class="form-header">
-                        <p class="text-muted" style="color: #FF9800 !important;">Kindly spend less than <b>5 minutes</b> to fill the client profiler form to help us know you and your business. We will respond within <b>24 hours</b> to confirm the slot for the <b>FREE Discovery Session</b>.</p>
+                        <p class="text-muted" style="color: #FF9800 !important;">Kindly spend less than <b>5 minutes</b> to fill the client profiler form to help us know you and your business. We will respond within <b>24 hours</b> to confirm the slot for the <b>Get New Business Ideas</b>.</p>
                     </div>
                     <div class="mb-3">
                         <input type="text" name="name" placeholder="Name" id="name" required/>
@@ -257,7 +270,7 @@
                     <div class="text-center py-4">
                         <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
                         <h3 class="mt-3">Thank You!</h3>
-                        <p>We will respond within <b>24 hours</b> to confirm the slot for the <b>FREE Discovery Session</b>.</p>
+                        <p>We will respond within <b>24 hours</b> to confirm the slot for the <b>Get New Business Ideas</b>.</p>
                         <h5>Review Your Information</h5>
                         <p class="text-muted">Please verify your responses before submitting</p>
                     </div>
@@ -271,7 +284,7 @@
                     <div class="text-center py-4">
                         <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
                         <h3 class="mt-3">Thank You!</h3>
-                        <p>We will respond within <b>24 hours</b> to confirm the slot for the <b>FREE Discovery Session</b>.</p>
+                        <p>We will respond within <b>24 hours</b> to confirm the slot for the <b>Get New Business Ideas</b>.</p>
                     </div>
                 </div>
 

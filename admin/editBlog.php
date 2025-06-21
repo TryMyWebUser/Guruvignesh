@@ -18,6 +18,7 @@
 
     $result = "";
     $getID = (int)$_GET['edit_id'];
+    $conn = Database::getConnect();
 
     // Handle form submission
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {

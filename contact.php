@@ -95,7 +95,7 @@
                             <!--    <div id="form-messages"></div>-->
                             <!--    <button class="rts-btn btn-primary" type="submit">Get In Touch</button>-->
                             <!--</form>-->
-                            <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; margin-bottom: 3rem; color: #FFF;">Get FREE Discovery Session</a>
+                            <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; margin-bottom: 3rem; color: #FFF;">Get New Business Ideas</a>
                         </div>
                     </div>
                 </div>

@@ -26,6 +26,8 @@
         }
     }
 
+    $cate = Operations::getEditCate();
+
 ?>
 
 <!DOCTYPE html>

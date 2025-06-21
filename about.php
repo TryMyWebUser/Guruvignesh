@@ -80,7 +80,7 @@
                                 <div class="check-wrapper-area">
                                     <div class="single-check">
                                         <i class="fa-solid fa-circle-check"></i>
-                                        <p>Award-winning entrepreneur who built a manufacturing brand that endures.</p>
+                                        <p>Award-winning entrepreneur who built a manufacturing brand that endures - <a href="http://www.homeutility.in" style="color: #2196F3;">http://www.homeutility.in/</a></p>
                                     </div>
                                     <div class="single-check">
                                         <i class="fa-solid fa-circle-check"></i>
@@ -92,7 +92,7 @@
                                     </div>
                                     <div class="single-check">
                                         <i class="fa-solid fa-circle-check"></i>
-                                        <p>Keynote speaker who’s inspired and mentored 5,000+ business owners and entrepreneurs.</p>
+                                        <p>Keynote speaker who’s inspired and mentored 5,000+ business owners and entrepreneurs - <a href="https://guruvignesh.in/" style="color: #2196F3;">https://guruvignesh.in/</a></p>
                                     </div>
                                     <div class="single-check">
                                         <i class="fa-solid fa-circle-check"></i>
@@ -102,7 +102,7 @@
                                 <p class="disc">
                                     <b>Guru</b> blends hands-on business experience, lean strategy, data-driven insights, AI-enabled innovation, and mindful coaching to help small businesses scale smarter, build stronger teams, and lead with confidence.
                                 </p>
-                                <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="margin-bottom: 10rem !important; border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; color: #FFF;">Get FREE Discovery Session</a>
+                                <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="margin-bottom: 10rem !important; border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; color: #FFF;">Get Get New Business Ideas</a>
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
                             <li><b>End-to-End Know-How</b> - From sourcing to last-mile delivery, from factory floor to boardroom - we understand and improve every part of your business journey.</li>
                         </ul>
                     </div>
-                <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="margin-left: 2rem; border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; margin-bottom: 3rem; color: #FFF;">Get FREE Discovery Session</a>
+                <a type="button" data-bs-toggle="modal" data-bs-target="#businessFormModal" class="rts-btn btn-primary btn-white" style="margin-left: 2rem; border-radius: 15px; justify-self: center; background: #008196c4; margin-top: 3rem; margin-bottom: 3rem; color: #FFF;">Get Get New Business Ideas</a>
                 </div>
             </div>
         </div>
